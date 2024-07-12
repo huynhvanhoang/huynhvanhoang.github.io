@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>StovePCSDK3: StovePCSDK_v3_Doc/IAPSDK/Deploy/Include/Misc/IAPSDKResult.h 소스 파일</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="annotated.html"><span>클래스</span></a></li>
+      <li class="current"><a href="files.html"><span>파일들</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>파일&#160;목록</span></a></li>
+    </ul>
+  </div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_154fab24512579e76f1837ae8a278a58.html">StovePCSDK_v3_Doc</a></li><li class="navelem"><a class="el" href="dir_d80212f84519ad1aa440ca43934e4824.html">IAPSDK</a></li><li class="navelem"><a class="el" href="dir_7699988a55daf6cac4005879a3dedf35.html">Deploy</a></li><li class="navelem"><a class="el" href="dir_d8aadf34f0a3e2401cc3f31158893162.html">Include</a></li><li class="navelem"><a class="el" href="dir_aa6ed0c45a6de92c9bfe09c9953f112c.html">Misc</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle"><div class="title">IAPSDKResult.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_i_a_p_s_d_k_result_8h.html">이 파일의 문서화 페이지로 가기</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;stdint.h&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="keyword">namespace </span>Stove</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>{</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">namespace </span>PCSDK</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    {</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <span class="keyword">namespace </span>IAP</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        {</div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adc">   21</a></span>            <span class="keyword">enum class</span> <a class="code hl_enumeration" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adc">SDKMethod</a> : uint32_t</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>            {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>                <span class="comment">/*</span></div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span><span class="comment">                * Common Method</span></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span><span class="comment">                */</span></div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>                INITIALIZE = 1U,</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>                UNINITIALIZE = 2U,</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>                INTERNAL_SEND_81PLUG = 3U,</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>                INTERNAL_UPDATE_81PLUG = 4U,</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                GET_VERSION = 5U,</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>                <span class="comment">/*</span></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span><span class="comment">                * IAPSDK Method</span></div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="comment">                */</span></div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adca176a9fbc845518c9461ef52d7dfed954">FETCH_SHOP_CATEGORIES</a> = 80U,</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adcacb50ea82e24a806344182098bd2c43e8">FETCH_PRODUCTS</a> = 81U,</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adca06672c5d450b97e6112524bd4d796fe5">START_PURCHASE</a> = 82U,</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adcae9ce0619fd460f8efc15ee1f795a14e1">CONFIRM_PURCHASE</a> = 83U,</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adca4e422c30dd314987c6528d4132d984d5">FETCH_INVENTORY</a> = 84U,</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adcafe0a43538d3d0bd494b4a0edbfba1848">FETCH_TERMS_AGREEMENT</a> = 85U,</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adcafbc09784e688080f4d4ab3c3963530db">START_PAYMENT</a> = 86U,</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adca2dd4d1d766cad9d5703c567cea1795a1">FETCH_VOIDED_PURCHASES</a> = 87U,</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adca361b88111754a925a6494aeeea56a886">CLOSE_ALL_POPUPS</a> = 88U,</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            };</div>
+</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span> </div>
+<div class="foldopen" id="foldopen00077" data-start="{" data-end="};">
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno"><a class="line" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2">   77</a></span>            <span class="keyword">enum class</span> <a class="code hl_enumeration" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2">SDKResultCode</a> : uint32_t</div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>            {</div>
+<div class="line"><a id="l00079" name="l00079"></a><span class="lineno">   79</span>                <span class="comment">/*</span></div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span><span class="comment">                * Common Result</span></div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span><span class="comment">                */</span></div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>                SUCCESS = 0U,</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>                FAIL = 1U,</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>                INVALID_CONFIG = 2U,</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>                INVALID_LOG_LEVEL = 3U,</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>                INVALID_LOG_PATH = 4U,</div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span> </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>                INVALID_PARAM = 5U,</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>                BASE_NOT_INITIALIZED = 16U,</div>
+<div class="line"><a id="l00102" name="l00102"></a><span class="lineno">  102</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>                NOT_INITIALIZED = 17U,</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span> </div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span>                ALREADY_INITIALIZED = 18U,</div>
+<div class="line"><a id="l00108" name="l00108"></a><span class="lineno">  108</span> </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>                INVALID_ACCESS_TOKEN = 19U,</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>                NULL_TOKEN_ENTITY = 20U,</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>                NULL_ENTITY = 21U,</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>                HTTP_ERROR = 22U,</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>                RESPONSE_ERROR = 23U,</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span> </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>                RESPONSE_INVALID_CODE = 24U,</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>                RESPONSE_VALUE_IS_NULL = 25U,</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>                RESPONSE_INVALID_VALUE_FORMAT = 26U,</div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span> </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>                LOG_81PLUG_ERROR = 27U,</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span> </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>                UPDATE_81PLUG_FEED_ERROR = 28U,</div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span> </div>
+<div class="line"><a id="l00140" name="l00140"></a><span class="lineno">  140</span>                PCSDK_DLL_NOT_FOUND = 251U,</div>
+<div class="line"><a id="l00141" name="l00141"></a><span class="lineno">  141</span> </div>
+<div class="line"><a id="l00143" name="l00143"></a><span class="lineno">  143</span>                NOT_IMPLEMENTED = 252U,</div>
+<div class="line"><a id="l00144" name="l00144"></a><span class="lineno">  144</span> </div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span>                UNMANAGED_EXCEPTION = 253U,</div>
+<div class="line"><a id="l00147" name="l00147"></a><span class="lineno">  147</span> </div>
+<div class="line"><a id="l00149" name="l00149"></a><span class="lineno">  149</span>                MANAGED_EXCEPTION = 254U,</div>
+<div class="line"><a id="l00150" name="l00150"></a><span class="lineno">  150</span> </div>
+<div class="line"><a id="l00152" name="l00152"></a><span class="lineno">  152</span>                UNKNOWN_ERROR = 255U,</div>
+<div class="line"><a id="l00153" name="l00153"></a><span class="lineno">  153</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>                <span class="comment">/*</span></div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span><span class="comment">                * IAPSDK Result</span></div>
+<div class="line"><a id="l00156" name="l00156"></a><span class="lineno">  156</span><span class="comment">                */</span></div>
+<div class="line"><a id="l00158" name="l00158"></a><span class="lineno">  158</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2ad9bb9e20bfb4a2c22d7f28070023ed22">VIEWUI_NOT_INITIALIZED</a> = 80U,</div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span> </div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2a7b9e96e189290b0b2f4c51fa1bf95815">VIEWUI_UNINIT_FAILED</a> = 81U,</div>
+<div class="line"><a id="l00162" name="l00162"></a><span class="lineno">  162</span> </div>
+<div class="line"><a id="l00164" name="l00164"></a><span class="lineno">  164</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2ad04fbfb98a350444d7c9a92d0ab393e8">WEBVIEW_CREATE_FAIL</a> = 82U,</div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span> </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2a9540cf03deffbf38f8be361ea05dc94c">WEBVIEW_LOAD_URL_FAIL</a> = 83U,</div>
+<div class="line"><a id="l00168" name="l00168"></a><span class="lineno">  168</span> </div>
+<div class="line"><a id="l00170" name="l00170"></a><span class="lineno">  170</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2aa1b23b298bff36e05ae82a49d3941a2e">WEBVIEW_CLOSED_BEFORE_PURCHASE</a> = 84U,</div>
+<div class="line"><a id="l00171" name="l00171"></a><span class="lineno">  171</span> </div>
+<div class="line"><a id="l00173" name="l00173"></a><span class="lineno">  173</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2a5bf1b4865358454eed8a42a57795c671">PARAMETER_LENGTH_EXCEEDED</a> = 85U,</div>
+<div class="line"><a id="l00174" name="l00174"></a><span class="lineno">  174</span> </div>
+<div class="line"><a id="l00176" name="l00176"></a><span class="lineno">  176</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2ad3f2bee8d368162bd0641c8580704a67">INVALID_JSON_STRING</a> = 86U,</div>
+<div class="line"><a id="l00177" name="l00177"></a><span class="lineno">  177</span> </div>
+<div class="line"><a id="l00179" name="l00179"></a><span class="lineno">  179</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2a151b2dcbe518db43d5c99ebe91fb6c5d">WEBVIEW_CREATE_COOKIE_FAIL</a> = 87U,</div>
+<div class="line"><a id="l00180" name="l00180"></a><span class="lineno">  180</span> </div>
+<div class="line"><a id="l00182" name="l00182"></a><span class="lineno">  182</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2a81a43ac7165828dd46c59829e6e7d6ff">INVALID_ORDER_PRODUCT_INFORMATION</a> = 88U,</div>
+<div class="line"><a id="l00183" name="l00183"></a><span class="lineno">  183</span> </div>
+<div class="line"><a id="l00185" name="l00185"></a><span class="lineno">  185</span>                <a class="code hl_enumvalue" href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2af37a8dc1bf13601f2854a392ef537519">WEBVIEW_CLOSE_ALL_FAIL</a> = 89U,</div>
+<div class="line"><a id="l00186" name="l00186"></a><span class="lineno">  186</span>            };</div>
+</div>
+<div class="line"><a id="l00187" name="l00187"></a><span class="lineno">  187</span> </div>
+<div class="line"><a id="l00193" name="l00193"></a><span class="lineno">  193</span>            <span class="keyword">constexpr</span> <span class="keywordtype">wchar_t</span> <span class="keyword">const</span>* IAPSDKName = L<span class="stringliteral">&quot;IAPSDK&quot;</span>;</div>
+<div class="line"><a id="l00194" name="l00194"></a><span class="lineno">  194</span>        }</div>
+<div class="line"><a id="l00195" name="l00195"></a><span class="lineno">  195</span>    }</div>
+<div class="line"><a id="l00196" name="l00196"></a><span class="lineno">  196</span>}</div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2">Stove::PCSDK::IAP::SDKResultCode</a></div><div class="ttdeci">SDKResultCode</div><div class="ttdef"><b>Definition</b> <a href="#l00077">IAPSDKResult.h:78</a></div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2a151b2dcbe518db43d5c99ebe91fb6c5d"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2a151b2dcbe518db43d5c99ebe91fb6c5d">Stove::PCSDK::IAP::SDKResultCode::WEBVIEW_CREATE_COOKIE_FAIL</a></div><div class="ttdeci">@ WEBVIEW_CREATE_COOKIE_FAIL</div><div class="ttdoc">87 : Cookie 생성에 실패했습니다.</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2a5bf1b4865358454eed8a42a57795c671"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2a5bf1b4865358454eed8a42a57795c671">Stove::PCSDK::IAP::SDKResultCode::PARAMETER_LENGTH_EXCEEDED</a></div><div class="ttdeci">@ PARAMETER_LENGTH_EXCEEDED</div><div class="ttdoc">85 : StartPurchase API 매개변수의 길이 제한을 초과했습니다(serviceTxnNo는 50자, extraData는 500자 제한).</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2a7b9e96e189290b0b2f4c51fa1bf95815"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2a7b9e96e189290b0b2f4c51fa1bf95815">Stove::PCSDK::IAP::SDKResultCode::VIEWUI_UNINIT_FAILED</a></div><div class="ttdeci">@ VIEWUI_UNINIT_FAILED</div><div class="ttdoc">81 : ViewUI 정리에 실패했습니다.</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2a81a43ac7165828dd46c59829e6e7d6ff"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2a81a43ac7165828dd46c59829e6e7d6ff">Stove::PCSDK::IAP::SDKResultCode::INVALID_ORDER_PRODUCT_INFORMATION</a></div><div class="ttdeci">@ INVALID_ORDER_PRODUCT_INFORMATION</div><div class="ttdoc">88 : 구매하려는 상품의 금액이나 갯수가 유효한 값이 아닙니다.</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2a9540cf03deffbf38f8be361ea05dc94c"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2a9540cf03deffbf38f8be361ea05dc94c">Stove::PCSDK::IAP::SDKResultCode::WEBVIEW_LOAD_URL_FAIL</a></div><div class="ttdeci">@ WEBVIEW_LOAD_URL_FAIL</div><div class="ttdoc">83 : URL 불러오기를 실패하였습니다.</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2aa1b23b298bff36e05ae82a49d3941a2e"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2aa1b23b298bff36e05ae82a49d3941a2e">Stove::PCSDK::IAP::SDKResultCode::WEBVIEW_CLOSED_BEFORE_PURCHASE</a></div><div class="ttdeci">@ WEBVIEW_CLOSED_BEFORE_PURCHASE</div><div class="ttdoc">84 : StartPurchase API 실행 도중 아이템 구매가 완료되지 않은 채 Webview가 종료되었습니다 (WITH_WEBVIEW_AND_CONFIRM_RESULT 옵션 한...</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2ad04fbfb98a350444d7c9a92d0ab393e8"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2ad04fbfb98a350444d7c9a92d0ab393e8">Stove::PCSDK::IAP::SDKResultCode::WEBVIEW_CREATE_FAIL</a></div><div class="ttdeci">@ WEBVIEW_CREATE_FAIL</div><div class="ttdoc">82 : Webview가 초기화되지 않았습니다.</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2ad3f2bee8d368162bd0641c8580704a67"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2ad3f2bee8d368162bd0641c8580704a67">Stove::PCSDK::IAP::SDKResultCode::INVALID_JSON_STRING</a></div><div class="ttdeci">@ INVALID_JSON_STRING</div><div class="ttdoc">86 : 문자열이 JSON 형식이 아닙니다.</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2ad9bb9e20bfb4a2c22d7f28070023ed22"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2ad9bb9e20bfb4a2c22d7f28070023ed22">Stove::PCSDK::IAP::SDKResultCode::VIEWUI_NOT_INITIALIZED</a></div><div class="ttdeci">@ VIEWUI_NOT_INITIALIZED</div><div class="ttdoc">80 : ViewUI가 초기화되지 않았습니다.</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_a1a6d21961b619f8e3e99469592298ee2af37a8dc1bf13601f2854a392ef537519"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#a1a6d21961b619f8e3e99469592298ee2af37a8dc1bf13601f2854a392ef537519">Stove::PCSDK::IAP::SDKResultCode::WEBVIEW_CLOSE_ALL_FAIL</a></div><div class="ttdeci">@ WEBVIEW_CLOSE_ALL_FAIL</div><div class="ttdoc">89 : Webview 일괄 닫기에 실패했습니다.</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_af8a0e8d77b3c09c2b02391299cc48adc"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adc">Stove::PCSDK::IAP::SDKMethod</a></div><div class="ttdeci">SDKMethod</div><div class="ttdef"><b>Definition</b> <a href="#l00021">IAPSDKResult.h:22</a></div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_af8a0e8d77b3c09c2b02391299cc48adca06672c5d450b97e6112524bd4d796fe5"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adca06672c5d450b97e6112524bd4d796fe5">Stove::PCSDK::IAP::SDKMethod::START_PURCHASE</a></div><div class="ttdeci">@ START_PURCHASE</div><div class="ttdoc">82 : IAP_StartPurchase</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_af8a0e8d77b3c09c2b02391299cc48adca176a9fbc845518c9461ef52d7dfed954"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adca176a9fbc845518c9461ef52d7dfed954">Stove::PCSDK::IAP::SDKMethod::FETCH_SHOP_CATEGORIES</a></div><div class="ttdeci">@ FETCH_SHOP_CATEGORIES</div><div class="ttdoc">80 : IAP_FetchShopCategories</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_af8a0e8d77b3c09c2b02391299cc48adca2dd4d1d766cad9d5703c567cea1795a1"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adca2dd4d1d766cad9d5703c567cea1795a1">Stove::PCSDK::IAP::SDKMethod::FETCH_VOIDED_PURCHASES</a></div><div class="ttdeci">@ FETCH_VOIDED_PURCHASES</div><div class="ttdoc">87 : IAP_FetchVoidedPurchases</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_af8a0e8d77b3c09c2b02391299cc48adca361b88111754a925a6494aeeea56a886"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adca361b88111754a925a6494aeeea56a886">Stove::PCSDK::IAP::SDKMethod::CLOSE_ALL_POPUPS</a></div><div class="ttdeci">@ CLOSE_ALL_POPUPS</div><div class="ttdoc">88 : IAP_CloseAllPopups</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_af8a0e8d77b3c09c2b02391299cc48adca4e422c30dd314987c6528d4132d984d5"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adca4e422c30dd314987c6528d4132d984d5">Stove::PCSDK::IAP::SDKMethod::FETCH_INVENTORY</a></div><div class="ttdeci">@ FETCH_INVENTORY</div><div class="ttdoc">84 : IAP_FetchInventory</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_af8a0e8d77b3c09c2b02391299cc48adcacb50ea82e24a806344182098bd2c43e8"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adcacb50ea82e24a806344182098bd2c43e8">Stove::PCSDK::IAP::SDKMethod::FETCH_PRODUCTS</a></div><div class="ttdeci">@ FETCH_PRODUCTS</div><div class="ttdoc">81 : IAP_FetchProducts</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_af8a0e8d77b3c09c2b02391299cc48adcae9ce0619fd460f8efc15ee1f795a14e1"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adcae9ce0619fd460f8efc15ee1f795a14e1">Stove::PCSDK::IAP::SDKMethod::CONFIRM_PURCHASE</a></div><div class="ttdeci">@ CONFIRM_PURCHASE</div><div class="ttdoc">83 : IAP_ConfirmPurchase</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_af8a0e8d77b3c09c2b02391299cc48adcafbc09784e688080f4d4ab3c3963530db"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adcafbc09784e688080f4d4ab3c3963530db">Stove::PCSDK::IAP::SDKMethod::START_PAYMENT</a></div><div class="ttdeci">@ START_PAYMENT</div><div class="ttdoc">86 : IAP_StartPayment</div></div>
+<div class="ttc" id="a_i_a_p_s_d_k_result_8h_html_af8a0e8d77b3c09c2b02391299cc48adcafe0a43538d3d0bd494b4a0edbfba1848"><div class="ttname"><a href="_i_a_p_s_d_k_result_8h.html#af8a0e8d77b3c09c2b02391299cc48adcafe0a43538d3d0bd494b4a0edbfba1848">Stove::PCSDK::IAP::SDKMethod::FETCH_TERMS_AGREEMENT</a></div><div class="ttdeci">@ FETCH_TERMS_AGREEMENT</div><div class="ttdoc">85 : IAP_FetchTermsAgreement</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+다음에 의해 생성됨 : &#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>

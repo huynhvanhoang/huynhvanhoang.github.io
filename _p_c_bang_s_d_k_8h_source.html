@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>StovePCSDK3: StovePCSDK_v3_Doc/PCBangSDK/Deploy/Include/PCBangSDK.h 소스 파일</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.0.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="annotated.html"><span>클래스</span></a></li>
+      <li class="current"><a href="files.html"><span>파일들</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>파일&#160;목록</span></a></li>
+    </ul>
+  </div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_154fab24512579e76f1837ae8a278a58.html">StovePCSDK_v3_Doc</a></li><li class="navelem"><a class="el" href="dir_5b0e059dcd52310ee530e27bef33b46c.html">PCBangSDK</a></li><li class="navelem"><a class="el" href="dir_ed62c607f3ee5ef269bc00cbecae3a9a.html">Deploy</a></li><li class="navelem"><a class="el" href="dir_3f189a2ed615ab4534f1c264bed56260.html">Include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle"><div class="title">PCBangSDK.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="_p_c_bang_s_d_k_8h.html">이 파일의 문서화 페이지로 가기</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#include &lt;Windows.h&gt;</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="_p_c_bang_s_d_k_2_deploy_2_include_2_misc_2_callbacks_8h.html">Misc/Callbacks.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &quot;<a class="code" href="_p_c_bang_s_d_k_2_deploy_2_include_2_misc_2_structures_8h.html">Misc/Structures.h</a>&quot;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="keyword">namespace </span>Stove</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">namespace </span>PCSDK</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    {</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="keyword">namespace </span>PCBang</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        {</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="_p_c_bang_s_d_k_8h.html#a0063bab4285ef8a8a3e3eb0c84d9449f">   25</a></span>            <a class="code hl_struct" href="struct_stove_1_1_p_c_s_d_k_1_1_result.html">Result</a> <a class="code hl_function" href="_p_c_bang_s_d_k_8h.html#a0063bab4285ef8a8a3e3eb0c84d9449f">PCBang_Initialize</a>();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>            </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="_p_c_bang_s_d_k_8h.html#a3bc20daac7ed636a50fd5f439d957df1">   32</a></span>            <a class="code hl_struct" href="struct_stove_1_1_p_c_s_d_k_1_1_result.html">Result</a> <a class="code hl_function" href="_p_c_bang_s_d_k_8h.html#a3bc20daac7ed636a50fd5f439d957df1">PCBang_UnInitialize</a>();</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>            </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="_p_c_bang_s_d_k_8h.html#a538891d4a0fc4bfa66b38e1d3ae9614c">   40</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="_p_c_bang_s_d_k_8h.html#a538891d4a0fc4bfa66b38e1d3ae9614c">PCBang_UserLogin</a>(OnPCBangUserLoginOnFinished onUserLoginFinished, OnPCBangRefreshUserBenefitsOnFinished onRefreshBenefitsFinished);</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="_p_c_bang_s_d_k_8h.html#a93e42006cb3f90b55b1061c5bedfbbb1">   47</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="_p_c_bang_s_d_k_8h.html#a93e42006cb3f90b55b1061c5bedfbbb1">PCBang_UserLogout</a>(OnPCBangUserLogoutOnFinished onFinished);</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="_p_c_bang_s_d_k_8h.html#ad1dd650fb55b17df8f4b35633855da8a">   54</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="_p_c_bang_s_d_k_8h.html#ad1dd650fb55b17df8f4b35633855da8a">PCBang_CheckPCBangStatus</a>(OnPCBangCheckPCBangStatusOnFinished onFinished);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="_p_c_bang_s_d_k_8h.html#a2310dafc55b8039feb731af5cd9f430e">   63</a></span>            <a class="code hl_struct" href="struct_stove_1_1_p_c_s_d_k_1_1_result.html">Result</a> <a class="code hl_function" href="_p_c_bang_s_d_k_8h.html#a2310dafc55b8039feb731af5cd9f430e">PCBang_GetVersion</a>(__out <span class="keywordtype">wchar_t</span>* version, uint32_t length);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        }</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>    }</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>}</div>
+<div class="ttc" id="a_p_c_bang_s_d_k_2_deploy_2_include_2_misc_2_callbacks_8h_html"><div class="ttname"><a href="_p_c_bang_s_d_k_2_deploy_2_include_2_misc_2_callbacks_8h.html">Callbacks.h</a></div><div class="ttdoc">PCBangSDK에서 사용하는 Callback 값의 헤더 파일입니다.</div></div>
+<div class="ttc" id="a_p_c_bang_s_d_k_2_deploy_2_include_2_misc_2_structures_8h_html"><div class="ttname"><a href="_p_c_bang_s_d_k_2_deploy_2_include_2_misc_2_structures_8h.html">Structures.h</a></div><div class="ttdoc">PCBangSDK에서 사용하는 Structures 값의 헤더 파일입니다.</div></div>
+<div class="ttc" id="a_p_c_bang_s_d_k_8h_html_a0063bab4285ef8a8a3e3eb0c84d9449f"><div class="ttname"><a href="_p_c_bang_s_d_k_8h.html#a0063bab4285ef8a8a3e3eb0c84d9449f">Stove::PCSDK::PCBang::PCBang_Initialize</a></div><div class="ttdeci">Result PCBang_Initialize()</div><div class="ttdoc">PCBangSDK를 초기화 합니다.</div></div>
+<div class="ttc" id="a_p_c_bang_s_d_k_8h_html_a2310dafc55b8039feb731af5cd9f430e"><div class="ttname"><a href="_p_c_bang_s_d_k_8h.html#a2310dafc55b8039feb731af5cd9f430e">Stove::PCSDK::PCBang::PCBang_GetVersion</a></div><div class="ttdeci">Result PCBang_GetVersion(__out wchar_t *version, uint32_t length)</div><div class="ttdoc">PCBangSDK의 버전 정보를 조회합니다.</div></div>
+<div class="ttc" id="a_p_c_bang_s_d_k_8h_html_a3bc20daac7ed636a50fd5f439d957df1"><div class="ttname"><a href="_p_c_bang_s_d_k_8h.html#a3bc20daac7ed636a50fd5f439d957df1">Stove::PCSDK::PCBang::PCBang_UnInitialize</a></div><div class="ttdeci">Result PCBang_UnInitialize()</div><div class="ttdoc">PCBangSDK의 자원을 해제합니다</div></div>
+<div class="ttc" id="a_p_c_bang_s_d_k_8h_html_a538891d4a0fc4bfa66b38e1d3ae9614c"><div class="ttname"><a href="_p_c_bang_s_d_k_8h.html#a538891d4a0fc4bfa66b38e1d3ae9614c">Stove::PCSDK::PCBang::PCBang_UserLogin</a></div><div class="ttdeci">void PCBang_UserLogin(OnPCBangUserLoginOnFinished onUserLoginFinished, OnPCBangRefreshUserBenefitsOnFinished onRefreshBenefitsFinished)</div><div class="ttdoc">PC방 서비스에서 게임 유저 로그인합니다</div></div>
+<div class="ttc" id="a_p_c_bang_s_d_k_8h_html_a93e42006cb3f90b55b1061c5bedfbbb1"><div class="ttname"><a href="_p_c_bang_s_d_k_8h.html#a93e42006cb3f90b55b1061c5bedfbbb1">Stove::PCSDK::PCBang::PCBang_UserLogout</a></div><div class="ttdeci">void PCBang_UserLogout(OnPCBangUserLogoutOnFinished onFinished)</div><div class="ttdoc">PC방 서비스에서 게임 유저 로그아웃합니다</div></div>
+<div class="ttc" id="a_p_c_bang_s_d_k_8h_html_ad1dd650fb55b17df8f4b35633855da8a"><div class="ttname"><a href="_p_c_bang_s_d_k_8h.html#ad1dd650fb55b17df8f4b35633855da8a">Stove::PCSDK::PCBang::PCBang_CheckPCBangStatus</a></div><div class="ttdeci">void PCBang_CheckPCBangStatus(OnPCBangCheckPCBangStatusOnFinished onFinished)</div><div class="ttdoc">PC방 여부 및 상품 사용 상태 조회합니다</div></div>
+<div class="ttc" id="astruct_stove_1_1_p_c_s_d_k_1_1_result_html"><div class="ttname"><a href="struct_stove_1_1_p_c_s_d_k_1_1_result.html">Stove::PCSDK::Result</a></div><div class="ttdoc">Stove PCSDK 3.x에서 기본 API 호출시 전달받는 구조체입니다.</div><div class="ttdef"><b>Definition</b> <a href="_result_8h_source.html#l00025">Result.h:26</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+다음에 의해 생성됨 : &#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>
