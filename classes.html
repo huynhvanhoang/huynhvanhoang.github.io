@@ -9,8 +9,13 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -20,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.0.0</span>
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1</span>
    </div>
   </td>
  </tr>
@@ -31,23 +36,25 @@
 <!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-  <div id="navrow1" class="tabs">
-    <ul class="tablist">
-      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
-      <li class="current"><a href="annotated.html"><span>클래스</span></a></li>
-      <li><a href="files.html"><span>파일들</span></a></li>
-    </ul>
-  </div>
-  <div id="navrow2" class="tabs2">
-    <ul class="tablist">
-      <li><a href="annotated.html"><span>클래스&#160;목록</span></a></li>
-      <li class="current"><a href="classes.html"><span>클래스&#160;색인</span></a></li>
-      <li><a href="functions.html"><span>클래스&#160;멤버</span></a></li>
-    </ul>
-  </div>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','검색',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
 </div><!-- top -->
 <div id="doc-content">
 <script type="text/javascript">
@@ -55,6 +62,27 @@ $(function() { codefold.init(0); });
 $(function(){ initResizable(false); });
 /* @license-end */
 </script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">로딩중...</div>
+<div class="SRStatus" id="Searching">검색중...</div>
+<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
+</div>
+</div>
+</div>
+</div>
+
 <div class="header">
   <div class="headertitle"><div class="title">클래스 색인</div></div>
 </div><!--header-->
@@ -63,13 +91,13 @@ $(function(){ initResizable(false); });
 <div class="classindex">
 <dl class="classindex even">
 <dt class="alphachar"><a id="letter_C" name="letter_C">C</a></dt>
-<dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_callback_result.html">CallbackResult</a> (Stove::PCSDK)</dd></dl>
+<dd><a class="el" href="a00075.html">CallbackResult</a> (Stove::PCSDK)</dd></dl>
 <dl class="classindex odd">
 <dt class="alphachar"><a id="letter_R" name="letter_R">R</a></dt>
-<dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_result.html">Result</a> (Stove::PCSDK)</dd></dl>
+<dd><a class="el" href="a00071.html">Result</a> (Stove::PCSDK)</dd></dl>
 <dl class="classindex even">
 <dt class="alphachar"><a id="letter_S" name="letter_S">S</a></dt>
-<dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_game_support_1_1_stove_p_c_achievement.html">StovePCAchievement</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_game_support_1_1_stove_p_c_achievement_condition.html">StovePCAchievementCondition</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_p_c_bang_1_1_stove_p_c_bang_status.html">StovePCBangStatus</a> (Stove::PCSDK::PCBang)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_p_c_bang_1_1_stove_p_c_bang_user_login.html">StovePCBangUserLogin</a> (Stove::PCSDK::PCBang)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_charge_info.html">StovePCChargeInfo</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_gaming_services_1_1_stove_p_c_fetch_character.html">StovePCFetchCharacter</a> (Stove::PCSDK::GamingServices)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_fetch_product_param.html">StovePCFetchProductParam</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_base_1_1_stove_p_c_game_profile.html">StovePCGameProfile</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_base_1_1_stove_p_c_gds.html">StovePCGds</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_game_support_1_1_stove_p_c_get_rank_params.html">StovePCGetRankParams</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_base_1_1_stove_p_c_initialize_param.html">StovePCInitializeParam</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_inventory_item.html">StovePCInventoryItem</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_order_product.html">StovePCOrderProduct</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_base_1_1_stove_p_c_over_immersion.html">StovePCOverImmersion</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_ownership_1_1_stove_p_c_ownership.html">StovePCOwnership</a> (Stove::PCSDK::Ownership)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_payment_option.html">StovePCPaymentOption</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_view_1_1_stove_p_c_popup_disallowed.html">StovePCPopupDisallowed</a> (Stove::PCSDK::View)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_product.html">StovePCProduct</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_purchased_product.html">StovePCPurchasedProduct</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_purchase_option.html">StovePCPurchaseOption</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_purchase_result.html">StovePCPurchaseResult</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_game_support_1_1_stove_p_c_rank.html">StovePCRank</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_p_c_bang_1_1_stove_p_c_refresh_user_benefits.html">StovePCRefreshUserBenefits</a> (Stove::PCSDK::PCBang)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_game_support_1_1_stove_p_c_set_stat_value.html">StovePCSetStatValue</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_shop_category.html">StovePCShopCategory</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_base_1_1_stove_p_c_shutdown.html">StovePCShutdown</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_base_1_1_stove_p_c_signin.html">StovePCSignin</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_start_purchase_param.html">StovePCStartPurchaseParam</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_game_support_1_1_stove_p_c_stat.html">StovePCStat</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_game_support_1_1_stove_p_c_stat_full_id.html">StovePCStatFullId</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_terms_option.html">StovePCTermsOption</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_base_1_1_stove_p_c_token.html">StovePCToken</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_base_1_1_stove_p_c_trace_hint.html">StovePCTraceHint</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_base_1_1_stove_p_c_user.html">StovePCUser</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="struct_stove_1_1_p_c_s_d_k_1_1_i_a_p_1_1_stove_p_c_voided_purchase.html">StovePCVoidedPurchase</a> (Stove::PCSDK::IAP)</dd></dl>
+<dd><a class="el" href="a00131.html">StovePCAchievement</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="a00127.html">StovePCAchievementCondition</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="a00203.html">StovePCBangStatus</a> (Stove::PCSDK::PCBang)</dd><dd><a class="el" href="a00199.html">StovePCBangUserLogin</a> (Stove::PCSDK::PCBang)</dd><dd><a class="el" href="a00171.html">StovePCChargeInfo</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00147.html">StovePCFetchProductParam</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00111.html">StovePCGameProfile</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="a00091.html">StovePCGds</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="a00135.html">StovePCGetRankParams</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="a00079.html">StovePCInitializeParam</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="a00179.html">StovePCInventoryItem</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00155.html">StovePCOrderProduct</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00099.html">StovePCOverImmersion</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="a00195.html">StovePCOwnership</a> (Stove::PCSDK::Ownership)</dd><dd><a class="el" href="a00187.html">StovePCPaymentOption</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00211.html">StovePCPopupDisallowed</a> (Stove::PCSDK::View)</dd><dd><a class="el" href="a00151.html">StovePCProduct</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00167.html">StovePCPurchasedProduct</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00159.html">StovePCPurchaseOption</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00175.html">StovePCPurchaseResult</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00139.html">StovePCRank</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="a00207.html">StovePCRefreshUserBenefits</a> (Stove::PCSDK::PCBang)</dd><dd><a class="el" href="a00123.html">StovePCSetStatValue</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="a00143.html">StovePCShopCategory</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00103.html">StovePCShutdown</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="a00095.html">StovePCSignin</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="a00163.html">StovePCStartPurchaseParam</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00119.html">StovePCStat</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="a00115.html">StovePCStatFullId</a> (Stove::PCSDK::GameSupport)</dd><dd><a class="el" href="a00183.html">StovePCTermsOption</a> (Stove::PCSDK::IAP)</dd><dd><a class="el" href="a00083.html">StovePCToken</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="a00107.html">StovePCTraceHint</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="a00087.html">StovePCUser</a> (Stove::PCSDK::Base)</dd><dd><a class="el" href="a00191.html">StovePCVoidedPurchase</a> (Stove::PCSDK::IAP)</dd></dl>
 </div>
 </div><!-- contents -->
 <!-- start footer part -->

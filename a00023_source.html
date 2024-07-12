@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.11.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>StovePCSDK3: StovePCSDK_v3_Doc/GameSupportSDK/Deploy/Include/GameSupportSDK.h 소스 파일</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','검색',false);
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){ initResizable(false); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">로딩중...</div>
+<div class="SRStatus" id="Searching">검색중...</div>
+<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_154fab24512579e76f1837ae8a278a58.html">StovePCSDK_v3_Doc</a></li><li class="navelem"><a class="el" href="dir_750367d82418bad27f9bfb78b3bfe6f4.html">GameSupportSDK</a></li><li class="navelem"><a class="el" href="dir_a8524179f6e8c608cc876355562fa3ac.html">Deploy</a></li><li class="navelem"><a class="el" href="dir_57f6f0e65f106bb622b35a565c15cb67.html">Include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div id="doc-content">
+<div class="header">
+  <div class="headertitle"><div class="title">GameSupportSDK.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="a00023.html">이 파일의 문서화 페이지로 가기</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#include &quot;<a class="code" href="a00216.html">Misc/Callbacks.h</a>&quot;</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="preprocessor">#include &quot;<a class="code" href="a00252.html">Misc/Structures.h</a>&quot;</span></div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span> </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">namespace </span>Stove</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    <span class="keyword">namespace </span>PCSDK</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    {</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        <span class="keyword">namespace </span>GameSupport</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="a00023.html#a5511facf06b41681afea9dce05941948">   24</a></span>            <a class="code hl_struct" href="a00071.html">Result</a> <a class="code hl_function" href="a00023.html#a5511facf06b41681afea9dce05941948">GameSupport_Initialize</a>();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="a00023.html#a04cba21d9210b175c16ce5b6b7d90ea4">   31</a></span>            <a class="code hl_struct" href="a00071.html">Result</a> <a class="code hl_function" href="a00023.html#a04cba21d9210b175c16ce5b6b7d90ea4">GameSupport_UnInitialize</a>();</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="a00023.html#ab7812108bf8c2c0e152f33e1c13e6230">   39</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="a00023.html#ab7812108bf8c2c0e152f33e1c13e6230">GameSupport_GetStat</a>(<span class="keyword">const</span> <span class="keywordtype">wchar_t</span>* statId, OnGetStatFinished onFinished);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="a00023.html#ad169da763a037a672583c460bbb0f8bb">   48</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="a00023.html#ad169da763a037a672583c460bbb0f8bb">GameSupport_SetStat</a>(<span class="keyword">const</span> <span class="keywordtype">wchar_t</span>* statId, int32_t statValue, OnSetStatFinished onFinished);</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno"><a class="line" href="a00023.html#a53ce0e587851458a6df78ce5aa717787">   56</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="a00023.html#a53ce0e587851458a6df78ce5aa717787">GameSupport_GetAchievement</a>(<span class="keyword">const</span> <span class="keywordtype">wchar_t</span>* achievementId, OnGetAchievementFinished onFinished);</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="a00023.html#a80d41306ce88eca0300cdb07da75be51">   63</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="a00023.html#a80d41306ce88eca0300cdb07da75be51">GameSupport_GetAllAchievement</a>(OnGetAllAchievementFinished onFinished);</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span> </div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno"><a class="line" href="a00023.html#a95fc9fd30bbcb80bbf7f80dd7f94cea8">   71</a></span>            <span class="keywordtype">void</span> <a class="code hl_function" href="a00023.html#a95fc9fd30bbcb80bbf7f80dd7f94cea8">GameSupport_GetRank</a>(<span class="keyword">const</span> <a class="code hl_struct" href="a00135.html">StovePCGetRankParams</a>* rankParams, OnGetRankFinished onFinished);</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="a00023.html#a2e2a1f778c52c07f2c9e31e087a7e35d">   80</a></span>            <a class="code hl_struct" href="a00071.html">Result</a> <a class="code hl_function" href="a00023.html#a2e2a1f778c52c07f2c9e31e087a7e35d">GameSupport_GetVersion</a>(__out <span class="keywordtype">wchar_t</span>* version, uint32_t length);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        }</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    }</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>}</div>
+<div class="ttc" id="aa00023_html_a04cba21d9210b175c16ce5b6b7d90ea4"><div class="ttname"><a href="a00023.html#a04cba21d9210b175c16ce5b6b7d90ea4">Stove::PCSDK::GameSupport::GameSupport_UnInitialize</a></div><div class="ttdeci">Result GameSupport_UnInitialize()</div><div class="ttdoc">GameSupportSDK의 자원을 해제합니다.</div></div>
+<div class="ttc" id="aa00023_html_a2e2a1f778c52c07f2c9e31e087a7e35d"><div class="ttname"><a href="a00023.html#a2e2a1f778c52c07f2c9e31e087a7e35d">Stove::PCSDK::GameSupport::GameSupport_GetVersion</a></div><div class="ttdeci">Result GameSupport_GetVersion(__out wchar_t *version, uint32_t length)</div><div class="ttdoc">GameSupportSDK의 버전 정보를 조회합니다.</div></div>
+<div class="ttc" id="aa00023_html_a53ce0e587851458a6df78ce5aa717787"><div class="ttname"><a href="a00023.html#a53ce0e587851458a6df78ce5aa717787">Stove::PCSDK::GameSupport::GameSupport_GetAchievement</a></div><div class="ttdeci">void GameSupport_GetAchievement(const wchar_t *achievementId, OnGetAchievementFinished onFinished)</div><div class="ttdoc">로그인한 사용자의 단일 업적을 조회합니다.</div></div>
+<div class="ttc" id="aa00023_html_a5511facf06b41681afea9dce05941948"><div class="ttname"><a href="a00023.html#a5511facf06b41681afea9dce05941948">Stove::PCSDK::GameSupport::GameSupport_Initialize</a></div><div class="ttdeci">Result GameSupport_Initialize()</div><div class="ttdoc">GameSupportSDK를 초기화 합니다.</div></div>
+<div class="ttc" id="aa00023_html_a80d41306ce88eca0300cdb07da75be51"><div class="ttname"><a href="a00023.html#a80d41306ce88eca0300cdb07da75be51">Stove::PCSDK::GameSupport::GameSupport_GetAllAchievement</a></div><div class="ttdeci">void GameSupport_GetAllAchievement(OnGetAllAchievementFinished onFinished)</div><div class="ttdoc">로그인한 사용자의 전체 업적을 조회합니다.</div></div>
+<div class="ttc" id="aa00023_html_a95fc9fd30bbcb80bbf7f80dd7f94cea8"><div class="ttname"><a href="a00023.html#a95fc9fd30bbcb80bbf7f80dd7f94cea8">Stove::PCSDK::GameSupport::GameSupport_GetRank</a></div><div class="ttdeci">void GameSupport_GetRank(const StovePCGetRankParams *rankParams, OnGetRankFinished onFinished)</div><div class="ttdoc">특정 페이지의 랭킹을 조회합니다.</div></div>
+<div class="ttc" id="aa00023_html_ab7812108bf8c2c0e152f33e1c13e6230"><div class="ttname"><a href="a00023.html#ab7812108bf8c2c0e152f33e1c13e6230">Stove::PCSDK::GameSupport::GameSupport_GetStat</a></div><div class="ttdeci">void GameSupport_GetStat(const wchar_t *statId, OnGetStatFinished onFinished)</div><div class="ttdoc">로그인한 사용자의 스탯을 등록한 Callback 함수에 넘겨줍니다.</div></div>
+<div class="ttc" id="aa00023_html_ad169da763a037a672583c460bbb0f8bb"><div class="ttname"><a href="a00023.html#ad169da763a037a672583c460bbb0f8bb">Stove::PCSDK::GameSupport::GameSupport_SetStat</a></div><div class="ttdeci">void GameSupport_SetStat(const wchar_t *statId, int32_t statValue, OnSetStatFinished onFinished)</div><div class="ttdoc">로그인한 사용자의 스탯을 설정합니다.</div></div>
+<div class="ttc" id="aa00071_html"><div class="ttname"><a href="a00071.html">Stove::PCSDK::Result</a></div><div class="ttdoc">Stove PCSDK 3.x에서 기본 API 호출시 전달받는 구조체입니다.</div><div class="ttdef"><b>Definition</b> <a href="a00014_source.html#l00025">Result.h:26</a></div></div>
+<div class="ttc" id="aa00135_html"><div class="ttname"><a href="a00135.html">Stove::PCSDK::GameSupport::StovePCGetRankParams</a></div><div class="ttdoc">GameSupportSDK_GetRank API 호출시 전달할 매개변수들을 담는 구조체입니다.</div><div class="ttdef"><b>Definition</b> <a href="a00252_source.html#l00327">Structures.h:328</a></div></div>
+<div class="ttc" id="aa00216_html"><div class="ttname"><a href="a00216.html">Callbacks.h</a></div><div class="ttdoc">GameSupportSDK에서 사용하는 Callback 값의 헤더 파일입니다.</div></div>
+<div class="ttc" id="aa00252_html"><div class="ttname"><a href="a00252.html">Structures.h</a></div><div class="ttdoc">GameSupportSDK에서 사용하는 Structures 값의 헤더 파일입니다.</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+다음에 의해 생성됨 : &#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0
+</small></address>
+</div><!-- doc-content -->
+</body>
+</html>
