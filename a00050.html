@@ -9,13 +9,8 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="cookie.js"></script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,7 +20,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1</span>
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1.2</span>
    </div>
   </td>
  </tr>
@@ -36,51 +31,26 @@
 <!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','검색',false);
-  $(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="annotated.html"><span>클래스</span></a></li>
+      <li class="current"><a href="files.html"><span>파일들</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>파일&#160;목록</span></a></li>
+    </ul>
+  </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<div id="MSearchResults">
-<div class="SRPage">
-<div id="SRIndex">
-<div id="SRResults"></div>
-<div class="SRStatus" id="Loading">로딩중...</div>
-<div class="SRStatus" id="Searching">검색중...</div>
-<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
-</div>
-</div>
-</div>
-</div>
-
 <div id="nav-path" class="navpath">
   <ul>
 <li class="navelem"><a class="el" href="dir_154fab24512579e76f1837ae8a278a58.html">StovePCSDK_v3_Doc</a></li><li class="navelem"><a class="el" href="dir_5b0e059dcd52310ee530e27bef33b46c.html">PCBangSDK</a></li><li class="navelem"><a class="el" href="dir_ed62c607f3ee5ef269bc00cbecae3a9a.html">Deploy</a></li><li class="navelem"><a class="el" href="dir_3f189a2ed615ab4534f1c264bed56260.html">Include</a></li>  </ul>
@@ -111,13 +81,13 @@ $(function(){ initResizable(false); });
 <tr class="memitem:a3bc20daac7ed636a50fd5f439d957df1" id="r_a3bc20daac7ed636a50fd5f439d957df1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bc20daac7ed636a50fd5f439d957df1">Stove::PCSDK::PCBang::PCBang_UnInitialize</a> ()</td></tr>
 <tr class="memdesc:a3bc20daac7ed636a50fd5f439d957df1"><td class="mdescLeft">&#160;</td><td class="mdescRight">PCBangSDK의 자원을 해제합니다  <br /></td></tr>
 <tr class="separator:a3bc20daac7ed636a50fd5f439d957df1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a538891d4a0fc4bfa66b38e1d3ae9614c" id="r_a538891d4a0fc4bfa66b38e1d3ae9614c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a538891d4a0fc4bfa66b38e1d3ae9614c">Stove::PCSDK::PCBang::PCBang_UserLogin</a> (<a class="el" href="a00228.html#a16cd2efeae1c6c54bd745532230660b7">OnPCBangUserLoginOnFinished</a> onUserLoginFinished, <a class="el" href="a00228.html#a4a20e14d2ff87fa8d70c8aef37c4c23f">OnPCBangRefreshUserBenefitsOnFinished</a> onRefreshBenefitsFinished)</td></tr>
+<tr class="memitem:a538891d4a0fc4bfa66b38e1d3ae9614c" id="r_a538891d4a0fc4bfa66b38e1d3ae9614c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a538891d4a0fc4bfa66b38e1d3ae9614c">Stove::PCSDK::PCBang::PCBang_UserLogin</a> (<a class="el" href="a00228.html#a67fe0bc6a6df29adf18093db96970d69">OnPCBangUserLoginOnFinished</a> onUserLoginFinished, <a class="el" href="a00228.html#abaa1444eb071f64e58ded93b8518d54e">OnPCBangRefreshUserBenefitsOnFinished</a> onRefreshBenefitsFinished)</td></tr>
 <tr class="memdesc:a538891d4a0fc4bfa66b38e1d3ae9614c"><td class="mdescLeft">&#160;</td><td class="mdescRight">PC방 서비스에서 게임 유저 로그인합니다  <br /></td></tr>
 <tr class="separator:a538891d4a0fc4bfa66b38e1d3ae9614c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93e42006cb3f90b55b1061c5bedfbbb1" id="r_a93e42006cb3f90b55b1061c5bedfbbb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93e42006cb3f90b55b1061c5bedfbbb1">Stove::PCSDK::PCBang::PCBang_UserLogout</a> (<a class="el" href="a00228.html#a612fe2ca5cb31bf57a589599c6f47090">OnPCBangUserLogoutOnFinished</a> onFinished)</td></tr>
+<tr class="memitem:a93e42006cb3f90b55b1061c5bedfbbb1" id="r_a93e42006cb3f90b55b1061c5bedfbbb1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93e42006cb3f90b55b1061c5bedfbbb1">Stove::PCSDK::PCBang::PCBang_UserLogout</a> (<a class="el" href="a00228.html#a6a43c14df71fd2251eca2d56955041a5">OnPCBangUserLogoutOnFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a93e42006cb3f90b55b1061c5bedfbbb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">PC방 서비스에서 게임 유저 로그아웃합니다  <br /></td></tr>
 <tr class="separator:a93e42006cb3f90b55b1061c5bedfbbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1dd650fb55b17df8f4b35633855da8a" id="r_ad1dd650fb55b17df8f4b35633855da8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1dd650fb55b17df8f4b35633855da8a">Stove::PCSDK::PCBang::PCBang_CheckPCBangStatus</a> (<a class="el" href="a00228.html#ab80f8e1069fe51ffdf5f5569e54574c2">OnPCBangCheckPCBangStatusOnFinished</a> onFinished)</td></tr>
+<tr class="memitem:ad1dd650fb55b17df8f4b35633855da8a" id="r_ad1dd650fb55b17df8f4b35633855da8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1dd650fb55b17df8f4b35633855da8a">Stove::PCSDK::PCBang::PCBang_CheckPCBangStatus</a> (<a class="el" href="a00228.html#a12148047137cf2133b0104a6aea8ea48">OnPCBangCheckPCBangStatusOnFinished</a> onFinished)</td></tr>
 <tr class="memdesc:ad1dd650fb55b17df8f4b35633855da8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">PC방 여부 및 상품 사용 상태 조회합니다  <br /></td></tr>
 <tr class="separator:ad1dd650fb55b17df8f4b35633855da8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2310dafc55b8039feb731af5cd9f430e" id="r_a2310dafc55b8039feb731af5cd9f430e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2310dafc55b8039feb731af5cd9f430e">Stove::PCSDK::PCBang::PCBang_GetVersion</a> (__out wchar_t *version, uint32_t length)</td></tr>
@@ -138,7 +108,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="memname">void Stove::PCSDK::PCBang::PCBang_CheckPCBangStatus </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00228.html#ab80f8e1069fe51ffdf5f5569e54574c2">OnPCBangCheckPCBangStatusOnFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="a00228.html#a12148047137cf2133b0104a6aea8ea48">OnPCBangCheckPCBangStatusOnFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -234,12 +204,12 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="memname">void Stove::PCSDK::PCBang::PCBang_UserLogin </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00228.html#a16cd2efeae1c6c54bd745532230660b7">OnPCBangUserLoginOnFinished</a></td>          <td class="paramname"><span class="paramname"><em>onUserLoginFinished</em></span>, </td>
+          <td class="paramtype"><a class="el" href="a00228.html#a67fe0bc6a6df29adf18093db96970d69">OnPCBangUserLoginOnFinished</a></td>          <td class="paramname"><span class="paramname"><em>onUserLoginFinished</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00228.html#a4a20e14d2ff87fa8d70c8aef37c4c23f">OnPCBangRefreshUserBenefitsOnFinished</a></td>          <td class="paramname"><span class="paramname"><em>onRefreshBenefitsFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00228.html#abaa1444eb071f64e58ded93b8518d54e">OnPCBangRefreshUserBenefitsOnFinished</a></td>          <td class="paramname"><span class="paramname"><em>onRefreshBenefitsFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -264,7 +234,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="memname">void Stove::PCSDK::PCBang::PCBang_UserLogout </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00228.html#a612fe2ca5cb31bf57a589599c6f47090">OnPCBangUserLogoutOnFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="a00228.html#a6a43c14df71fd2251eca2d56955041a5">OnPCBangUserLogoutOnFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>

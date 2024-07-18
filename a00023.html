@@ -9,13 +9,8 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="cookie.js"></script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,7 +20,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1</span>
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1.2</span>
    </div>
   </td>
  </tr>
@@ -36,51 +31,26 @@
 <!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','검색',false);
-  $(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="annotated.html"><span>클래스</span></a></li>
+      <li class="current"><a href="files.html"><span>파일들</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>파일&#160;목록</span></a></li>
+    </ul>
+  </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<div id="MSearchResults">
-<div class="SRPage">
-<div id="SRIndex">
-<div id="SRResults"></div>
-<div class="SRStatus" id="Loading">로딩중...</div>
-<div class="SRStatus" id="Searching">검색중...</div>
-<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
-</div>
-</div>
-</div>
-</div>
-
 <div id="nav-path" class="navpath">
   <ul>
 <li class="navelem"><a class="el" href="dir_154fab24512579e76f1837ae8a278a58.html">StovePCSDK_v3_Doc</a></li><li class="navelem"><a class="el" href="dir_750367d82418bad27f9bfb78b3bfe6f4.html">GameSupportSDK</a></li><li class="navelem"><a class="el" href="dir_a8524179f6e8c608cc876355562fa3ac.html">Deploy</a></li><li class="navelem"><a class="el" href="dir_57f6f0e65f106bb622b35a565c15cb67.html">Include</a></li>  </ul>
@@ -110,19 +80,19 @@ $(function(){ initResizable(false); });
 <tr class="memitem:a04cba21d9210b175c16ce5b6b7d90ea4" id="r_a04cba21d9210b175c16ce5b6b7d90ea4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a04cba21d9210b175c16ce5b6b7d90ea4">Stove::PCSDK::GameSupport::GameSupport_UnInitialize</a> ()</td></tr>
 <tr class="memdesc:a04cba21d9210b175c16ce5b6b7d90ea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameSupportSDK의 자원을 해제합니다.  <br /></td></tr>
 <tr class="separator:a04cba21d9210b175c16ce5b6b7d90ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7812108bf8c2c0e152f33e1c13e6230" id="r_ab7812108bf8c2c0e152f33e1c13e6230"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7812108bf8c2c0e152f33e1c13e6230">Stove::PCSDK::GameSupport::GameSupport_GetStat</a> (const wchar_t *statId, <a class="el" href="a00216.html#a93d169148afe0543f31730316206dd72">OnGetStatFinished</a> onFinished)</td></tr>
+<tr class="memitem:ab7812108bf8c2c0e152f33e1c13e6230" id="r_ab7812108bf8c2c0e152f33e1c13e6230"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7812108bf8c2c0e152f33e1c13e6230">Stove::PCSDK::GameSupport::GameSupport_GetStat</a> (const wchar_t *statId, <a class="el" href="a00216.html#aa65fa70c31503d6186ef1a0efaf30e61">OnGetStatFinished</a> onFinished)</td></tr>
 <tr class="memdesc:ab7812108bf8c2c0e152f33e1c13e6230"><td class="mdescLeft">&#160;</td><td class="mdescRight">로그인한 사용자의 스탯을 등록한 Callback 함수에 넘겨줍니다.  <br /></td></tr>
 <tr class="separator:ab7812108bf8c2c0e152f33e1c13e6230"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad169da763a037a672583c460bbb0f8bb" id="r_ad169da763a037a672583c460bbb0f8bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad169da763a037a672583c460bbb0f8bb">Stove::PCSDK::GameSupport::GameSupport_SetStat</a> (const wchar_t *statId, int32_t statValue, <a class="el" href="a00216.html#aad77bb929a64d7f1b24ce2e4a2bc4b46">OnSetStatFinished</a> onFinished)</td></tr>
+<tr class="memitem:ad169da763a037a672583c460bbb0f8bb" id="r_ad169da763a037a672583c460bbb0f8bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad169da763a037a672583c460bbb0f8bb">Stove::PCSDK::GameSupport::GameSupport_SetStat</a> (const wchar_t *statId, int32_t statValue, <a class="el" href="a00216.html#aa436ce161450c44b772813fb17765596">OnSetStatFinished</a> onFinished)</td></tr>
 <tr class="memdesc:ad169da763a037a672583c460bbb0f8bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">로그인한 사용자의 스탯을 설정합니다.  <br /></td></tr>
 <tr class="separator:ad169da763a037a672583c460bbb0f8bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53ce0e587851458a6df78ce5aa717787" id="r_a53ce0e587851458a6df78ce5aa717787"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53ce0e587851458a6df78ce5aa717787">Stove::PCSDK::GameSupport::GameSupport_GetAchievement</a> (const wchar_t *achievementId, <a class="el" href="a00216.html#a23a7efed546456a2f2e7bcca926e9faf">OnGetAchievementFinished</a> onFinished)</td></tr>
+<tr class="memitem:a53ce0e587851458a6df78ce5aa717787" id="r_a53ce0e587851458a6df78ce5aa717787"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a53ce0e587851458a6df78ce5aa717787">Stove::PCSDK::GameSupport::GameSupport_GetAchievement</a> (const wchar_t *achievementId, <a class="el" href="a00216.html#a32733b5c109744de06329a75c9c57bc2">OnGetAchievementFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a53ce0e587851458a6df78ce5aa717787"><td class="mdescLeft">&#160;</td><td class="mdescRight">로그인한 사용자의 단일 업적을 조회합니다.  <br /></td></tr>
 <tr class="separator:a53ce0e587851458a6df78ce5aa717787"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80d41306ce88eca0300cdb07da75be51" id="r_a80d41306ce88eca0300cdb07da75be51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80d41306ce88eca0300cdb07da75be51">Stove::PCSDK::GameSupport::GameSupport_GetAllAchievement</a> (<a class="el" href="a00216.html#a1e552111c07d553c46dd575656deb685">OnGetAllAchievementFinished</a> onFinished)</td></tr>
+<tr class="memitem:a80d41306ce88eca0300cdb07da75be51" id="r_a80d41306ce88eca0300cdb07da75be51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80d41306ce88eca0300cdb07da75be51">Stove::PCSDK::GameSupport::GameSupport_GetAllAchievement</a> (<a class="el" href="a00216.html#af6e6e95774c9a5956e714a586f9ecc75">OnGetAllAchievementFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a80d41306ce88eca0300cdb07da75be51"><td class="mdescLeft">&#160;</td><td class="mdescRight">로그인한 사용자의 전체 업적을 조회합니다.  <br /></td></tr>
 <tr class="separator:a80d41306ce88eca0300cdb07da75be51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95fc9fd30bbcb80bbf7f80dd7f94cea8" id="r_a95fc9fd30bbcb80bbf7f80dd7f94cea8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95fc9fd30bbcb80bbf7f80dd7f94cea8">Stove::PCSDK::GameSupport::GameSupport_GetRank</a> (const <a class="el" href="a00135.html">StovePCGetRankParams</a> *rankParams, <a class="el" href="a00216.html#a81dfeea52900d843a4eff6656efb73cf">OnGetRankFinished</a> onFinished)</td></tr>
+<tr class="memitem:a95fc9fd30bbcb80bbf7f80dd7f94cea8" id="r_a95fc9fd30bbcb80bbf7f80dd7f94cea8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95fc9fd30bbcb80bbf7f80dd7f94cea8">Stove::PCSDK::GameSupport::GameSupport_GetRank</a> (const <a class="el" href="a00135.html">StovePCGetRankParams</a> *rankParams, <a class="el" href="a00216.html#aca4f4231553cf03a3814945d0e610ccb">OnGetRankFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a95fc9fd30bbcb80bbf7f80dd7f94cea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">특정 페이지의 랭킹을 조회합니다.  <br /></td></tr>
 <tr class="separator:a95fc9fd30bbcb80bbf7f80dd7f94cea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e2a1f778c52c07f2c9e31e087a7e35d" id="r_a2e2a1f778c52c07f2c9e31e087a7e35d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e2a1f778c52c07f2c9e31e087a7e35d">Stove::PCSDK::GameSupport::GameSupport_GetVersion</a> (__out wchar_t *version, uint32_t length)</td></tr>
@@ -148,7 +118,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00216.html#a23a7efed546456a2f2e7bcca926e9faf">OnGetAchievementFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00216.html#a32733b5c109744de06329a75c9c57bc2">OnGetAchievementFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -173,7 +143,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="memname">void Stove::PCSDK::GameSupport::GameSupport_GetAllAchievement </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00216.html#a1e552111c07d553c46dd575656deb685">OnGetAllAchievementFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="a00216.html#af6e6e95774c9a5956e714a586f9ecc75">OnGetAllAchievementFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -203,7 +173,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00216.html#a81dfeea52900d843a4eff6656efb73cf">OnGetRankFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00216.html#aca4f4231553cf03a3814945d0e610ccb">OnGetRankFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -233,7 +203,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00216.html#a93d169148afe0543f31730316206dd72">OnGetStatFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00216.html#aa65fa70c31503d6186ef1a0efaf30e61">OnGetStatFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -319,7 +289,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00216.html#aad77bb929a64d7f1b24ce2e4a2bc4b46">OnSetStatFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00216.html#aa436ce161450c44b772813fb17765596">OnSetStatFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">

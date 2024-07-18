@@ -9,13 +9,8 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="cookie.js"></script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,7 +20,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1</span>
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1.2</span>
    </div>
   </td>
  </tr>
@@ -36,51 +31,26 @@
 <!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','검색',false);
-  $(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="annotated.html"><span>클래스</span></a></li>
+      <li class="current"><a href="files.html"><span>파일들</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>파일&#160;목록</span></a></li>
+    </ul>
+  </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<div id="MSearchResults">
-<div class="SRPage">
-<div id="SRIndex">
-<div id="SRResults"></div>
-<div class="SRStatus" id="Loading">로딩중...</div>
-<div class="SRStatus" id="Searching">검색중...</div>
-<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
-</div>
-</div>
-</div>
-</div>
-
 <div id="nav-path" class="navpath">
   <ul>
 <li class="navelem"><a class="el" href="dir_154fab24512579e76f1837ae8a278a58.html">StovePCSDK_v3_Doc</a></li><li class="navelem"><a class="el" href="dir_750367d82418bad27f9bfb78b3bfe6f4.html">GameSupportSDK</a></li><li class="navelem"><a class="el" href="dir_a8524179f6e8c608cc876355562fa3ac.html">Deploy</a></li><li class="navelem"><a class="el" href="dir_57f6f0e65f106bb622b35a565c15cb67.html">Include</a></li><li class="navelem"><a class="el" href="dir_f68e754786db40481c7755902abd4b84.html">Misc</a></li>  </ul>
@@ -102,117 +72,152 @@ $(function(){ initResizable(false); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 타입정의</h2></td></tr>
-<tr class="memitem:a93d169148afe0543f31730316206dd72" id="r_a93d169148afe0543f31730316206dd72"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93d169148afe0543f31730316206dd72">Stove::PCSDK::GameSupport::OnGetStatFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, <a class="el" href="a00119.html">StovePCStat</a>)</td></tr>
-<tr class="memdesc:a93d169148afe0543f31730316206dd72"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameSupport_GetStat API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:a93d169148afe0543f31730316206dd72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad77bb929a64d7f1b24ce2e4a2bc4b46" id="r_aad77bb929a64d7f1b24ce2e4a2bc4b46"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad77bb929a64d7f1b24ce2e4a2bc4b46">Stove::PCSDK::GameSupport::OnSetStatFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, <a class="el" href="a00123.html">StovePCSetStatValue</a>)</td></tr>
-<tr class="memdesc:aad77bb929a64d7f1b24ce2e4a2bc4b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameSupport_SetStat API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:aad77bb929a64d7f1b24ce2e4a2bc4b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23a7efed546456a2f2e7bcca926e9faf" id="r_a23a7efed546456a2f2e7bcca926e9faf"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23a7efed546456a2f2e7bcca926e9faf">Stove::PCSDK::GameSupport::OnGetAchievementFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, <a class="el" href="a00131.html">StovePCAchievement</a>)</td></tr>
-<tr class="memdesc:a23a7efed546456a2f2e7bcca926e9faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameSupport_GetAchievement API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:a23a7efed546456a2f2e7bcca926e9faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e552111c07d553c46dd575656deb685" id="r_a1e552111c07d553c46dd575656deb685"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e552111c07d553c46dd575656deb685">Stove::PCSDK::GameSupport::OnGetAllAchievementFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, <a class="el" href="a00131.html">StovePCAchievement</a> *, uint32_t)</td></tr>
-<tr class="memdesc:a1e552111c07d553c46dd575656deb685"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameSupport_GetAllAchievement API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:a1e552111c07d553c46dd575656deb685"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81dfeea52900d843a4eff6656efb73cf" id="r_a81dfeea52900d843a4eff6656efb73cf"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81dfeea52900d843a4eff6656efb73cf">Stove::PCSDK::GameSupport::OnGetRankFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, <a class="el" href="a00139.html">StovePCRank</a> *, uint32_t, uint32_t)</td></tr>
-<tr class="separator:a81dfeea52900d843a4eff6656efb73cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa65fa70c31503d6186ef1a0efaf30e61" id="r_aa65fa70c31503d6186ef1a0efaf30e61"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa65fa70c31503d6186ef1a0efaf30e61">Stove::PCSDK::GameSupport::OnGetStatFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, <a class="el" href="a00119.html">StovePCStat</a> stat)</td></tr>
+<tr class="memdesc:aa65fa70c31503d6186ef1a0efaf30e61"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameSupport_GetStat API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:aa65fa70c31503d6186ef1a0efaf30e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa436ce161450c44b772813fb17765596" id="r_aa436ce161450c44b772813fb17765596"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa436ce161450c44b772813fb17765596">Stove::PCSDK::GameSupport::OnSetStatFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, <a class="el" href="a00123.html">StovePCSetStatValue</a> statValue)</td></tr>
+<tr class="memdesc:aa436ce161450c44b772813fb17765596"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameSupport_SetStat API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:aa436ce161450c44b772813fb17765596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32733b5c109744de06329a75c9c57bc2" id="r_a32733b5c109744de06329a75c9c57bc2"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a32733b5c109744de06329a75c9c57bc2">Stove::PCSDK::GameSupport::OnGetAchievementFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, <a class="el" href="a00131.html">StovePCAchievement</a> achievement)</td></tr>
+<tr class="memdesc:a32733b5c109744de06329a75c9c57bc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameSupport_GetAchievement API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:a32733b5c109744de06329a75c9c57bc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6e6e95774c9a5956e714a586f9ecc75" id="r_af6e6e95774c9a5956e714a586f9ecc75"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6e6e95774c9a5956e714a586f9ecc75">Stove::PCSDK::GameSupport::OnGetAllAchievementFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, <a class="el" href="a00131.html">StovePCAchievement</a> *achievements, uint32_t achievementSize)</td></tr>
+<tr class="memdesc:af6e6e95774c9a5956e714a586f9ecc75"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameSupport_GetAllAchievement API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:af6e6e95774c9a5956e714a586f9ecc75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca4f4231553cf03a3814945d0e610ccb" id="r_aca4f4231553cf03a3814945d0e610ccb"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca4f4231553cf03a3814945d0e610ccb">Stove::PCSDK::GameSupport::OnGetRankFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, <a class="el" href="a00139.html">StovePCRank</a> *ranks, uint32_t rankSize, uint32_t totalCount)</td></tr>
+<tr class="memdesc:aca4f4231553cf03a3814945d0e610ccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">GameSupport_GetRank API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:aca4f4231553cf03a3814945d0e610ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">상세한 설명</h2>
 <div class="textblock"><p>GameSupportSDK에서 사용하는 Callback 값의 헤더 파일입니다. </p>
 
 <p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일에서 정의되었습니다.</p>
 </div><h2 class="groupheader">타입정의 문서화</h2>
-<a id="a23a7efed546456a2f2e7bcca926e9faf" name="a23a7efed546456a2f2e7bcca926e9faf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23a7efed546456a2f2e7bcca926e9faf">&#9670;&#160;</a></span>OnGetAchievementFinished</h2>
+<a id="a32733b5c109744de06329a75c9c57bc2" name="a32733b5c109744de06329a75c9c57bc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32733b5c109744de06329a75c9c57bc2">&#9670;&#160;</a></span>OnGetAchievementFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::GameSupport::OnGetAchievementFinished) (CallbackResult, StovePCAchievement)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::GameSupport::OnGetAchievementFinished) (CallbackResult callbackResult, StovePCAchievement achievement)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>GameSupport_GetAchievement API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCAchievement</td><td>achievement 결과 값 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00216_source.html#l00024">24</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00216_source.html#l00036">36</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
-<a id="a1e552111c07d553c46dd575656deb685" name="a1e552111c07d553c46dd575656deb685"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e552111c07d553c46dd575656deb685">&#9670;&#160;</a></span>OnGetAllAchievementFinished</h2>
+<a id="af6e6e95774c9a5956e714a586f9ecc75" name="af6e6e95774c9a5956e714a586f9ecc75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e6e95774c9a5956e714a586f9ecc75">&#9670;&#160;</a></span>OnGetAllAchievementFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::GameSupport::OnGetAllAchievementFinished) (CallbackResult, StovePCAchievement *, uint32_t)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::GameSupport::OnGetAllAchievementFinished) (CallbackResult callbackResult, StovePCAchievement *achievements, uint32_t achievementSize)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>GameSupport_GetAllAchievement API 호출 시 응답받는 콜백 함수 포인터 </p>
-
-<p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00216_source.html#l00027">27</a> 번째 라인에서 정의되었습니다.</p>
-
-</div>
-</div>
-<a id="a81dfeea52900d843a4eff6656efb73cf" name="a81dfeea52900d843a4eff6656efb73cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81dfeea52900d843a4eff6656efb73cf">&#9670;&#160;</a></span>OnGetRankFinished</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::GameSupport::OnGetRankFinished) (CallbackResult, StovePCRank *, uint32_t, uint32_t)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>GameSupport_GetRank API 호출 시 응답받는 콜백 함수 포인터 </p><dl class="params"><dt>매개변수</dt><dd>
+<dl class="params"><dt>매개변수</dt><dd>
   <table class="params">
-    <tr><td class="paramname">const</td><td>uint32_t totalCount 총 데이터 갯수 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCAchievement*</td><td>achievements StovePCAchievement 배열 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">uint32_t</td><td>achievementSize StovePCAchievement 배열 크기 </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00216_source.html#l00031">31</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00216_source.html#l00044">44</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
-<a id="a93d169148afe0543f31730316206dd72" name="a93d169148afe0543f31730316206dd72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93d169148afe0543f31730316206dd72">&#9670;&#160;</a></span>OnGetStatFinished</h2>
+<a id="aca4f4231553cf03a3814945d0e610ccb" name="aca4f4231553cf03a3814945d0e610ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca4f4231553cf03a3814945d0e610ccb">&#9670;&#160;</a></span>OnGetRankFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::GameSupport::OnGetStatFinished) (CallbackResult, StovePCStat)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::GameSupport::OnGetRankFinished) (CallbackResult callbackResult, StovePCRank *ranks, uint32_t rankSize, uint32_t totalCount)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>GameSupport_GetRank API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCRank*</td><td>ranks StovePCRank 배열 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">uint32_t</td><td>rankSize StovePCRank 배열 크기 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">uint32_t</td><td>totalCount 총 데이터 갯수 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00216_source.html#l00053">53</a> 번째 라인에서 정의되었습니다.</p>
+
+</div>
+</div>
+<a id="aa65fa70c31503d6186ef1a0efaf30e61" name="aa65fa70c31503d6186ef1a0efaf30e61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa65fa70c31503d6186ef1a0efaf30e61">&#9670;&#160;</a></span>OnGetStatFinished</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::GameSupport::OnGetStatFinished) (CallbackResult callbackResult, StovePCStat stat)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>GameSupport_GetStat API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCStat</td><td>stat 결과 값 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00216_source.html#l00018">18</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00216_source.html#l00022">22</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
-<a id="aad77bb929a64d7f1b24ce2e4a2bc4b46" name="aad77bb929a64d7f1b24ce2e4a2bc4b46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad77bb929a64d7f1b24ce2e4a2bc4b46">&#9670;&#160;</a></span>OnSetStatFinished</h2>
+<a id="aa436ce161450c44b772813fb17765596" name="aa436ce161450c44b772813fb17765596"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa436ce161450c44b772813fb17765596">&#9670;&#160;</a></span>OnSetStatFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::GameSupport::OnSetStatFinished) (CallbackResult, StovePCSetStatValue)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::GameSupport::OnSetStatFinished) (CallbackResult callbackResult, StovePCSetStatValue statValue)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>GameSupport_SetStat API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCSetStatValue</td><td>statValue 결과 값 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00216_source.html#l00021">21</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00216_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00216_source.html#l00029">29</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>

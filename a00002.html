@@ -9,13 +9,8 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="cookie.js"></script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,7 +20,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1</span>
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1.2</span>
    </div>
   </td>
  </tr>
@@ -36,51 +31,26 @@
 <!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','검색',false);
-  $(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="annotated.html"><span>클래스</span></a></li>
+      <li class="current"><a href="files.html"><span>파일들</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>파일&#160;목록</span></a></li>
+    </ul>
+  </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<div id="MSearchResults">
-<div class="SRPage">
-<div id="SRIndex">
-<div id="SRResults"></div>
-<div class="SRStatus" id="Loading">로딩중...</div>
-<div class="SRStatus" id="Searching">검색중...</div>
-<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
-</div>
-</div>
-</div>
-</div>
-
 <div id="nav-path" class="navpath">
   <ul>
 <li class="navelem"><a class="el" href="dir_154fab24512579e76f1837ae8a278a58.html">StovePCSDK_v3_Doc</a></li><li class="navelem"><a class="el" href="dir_60459e91a012f2cf5dc9685cdb8cf37c.html">BaseSDK</a></li><li class="navelem"><a class="el" href="dir_7e0a3bfa67971ea29a80308f45be9c4d.html">Deploy</a></li><li class="navelem"><a class="el" href="dir_5d25428413c13c9206e318edd9b7faf2.html">Include</a></li>  </ul>
@@ -109,7 +79,7 @@ $(function(){ initResizable(false); });
 <tr class="memitem:a919bd468ad998edd5e732cad7a10aa7a" id="r_a919bd468ad998edd5e732cad7a10aa7a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a919bd468ad998edd5e732cad7a10aa7a">Stove::PCSDK::Base::Base_RestartAppIfNecessary</a> (const <a class="el" href="a00079.html">StovePCInitializeParam</a> *initParam)</td></tr>
 <tr class="memdesc:a919bd468ad998edd5e732cad7a10aa7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">PCSDK가 런처를 통해 실행이 되었는지 확인합니다.  <br /></td></tr>
 <tr class="separator:a919bd468ad998edd5e732cad7a10aa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a752e746b69a3108afd987289dda9a377" id="r_a752e746b69a3108afd987289dda9a377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a752e746b69a3108afd987289dda9a377">Stove::PCSDK::Base::Base_Initialize</a> (const <a class="el" href="a00079.html">StovePCInitializeParam</a> *initParam, <a class="el" href="a00213.html#a1a928fbfec8f1e40fc8da3aa83a22cb8">OnInitializeFinished</a> onFinished)</td></tr>
+<tr class="memitem:a752e746b69a3108afd987289dda9a377" id="r_a752e746b69a3108afd987289dda9a377"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a752e746b69a3108afd987289dda9a377">Stove::PCSDK::Base::Base_Initialize</a> (const <a class="el" href="a00079.html">StovePCInitializeParam</a> *initParam, <a class="el" href="a00213.html#ac8aa54a99a94ac5963252b79b63f4ea9">OnInitializeFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a752e746b69a3108afd987289dda9a377"><td class="mdescLeft">&#160;</td><td class="mdescRight">BaseSDK를 초기화 합니다.  <br /></td></tr>
 <tr class="separator:a752e746b69a3108afd987289dda9a377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52565b46d510fb7913e9e8e4f061073e" id="r_a52565b46d510fb7913e9e8e4f061073e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a52565b46d510fb7913e9e8e4f061073e">Stove::PCSDK::Base::Base_UnInitialize</a> ()</td></tr>
@@ -122,7 +92,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Stove::PCSDK::Base::B
 <tr class="memitem:a08511ab37044e882b249096967030251" id="r_a08511ab37044e882b249096967030251"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08511ab37044e882b249096967030251">Stove::PCSDK::Base::Base_GetAccessToken</a> (__out wchar_t *accessToken, uint32_t length)</td></tr>
 <tr class="memdesc:a08511ab37044e882b249096967030251"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stove에서 사용 가능한 AccessToken을 반환해줍니다  <br /></td></tr>
 <tr class="separator:a08511ab37044e882b249096967030251"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23469758b0a64c6ffb62bc315af7ad55" id="r_a23469758b0a64c6ffb62bc315af7ad55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23469758b0a64c6ffb62bc315af7ad55">Stove::PCSDK::Base::Base_GetRenewToken</a> (<a class="el" href="a00213.html#ac94fe763d3ac859e78043cdb68ac7bfc">OnRenewTokenFinished</a> onFinished)</td></tr>
+<tr class="memitem:a23469758b0a64c6ffb62bc315af7ad55" id="r_a23469758b0a64c6ffb62bc315af7ad55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23469758b0a64c6ffb62bc315af7ad55">Stove::PCSDK::Base::Base_GetRenewToken</a> (<a class="el" href="a00213.html#ab0064a1bdd67ee1a23f6e38f44980e91">OnRenewTokenFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a23469758b0a64c6ffb62bc315af7ad55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stove에서 사용 가능한 AccessToken이 갱신되는 시점에 새로 발급된 AccessToken을 등록한 Callback 함수에 넘겨줍니다  <br /></td></tr>
 <tr class="separator:a23469758b0a64c6ffb62bc315af7ad55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7da29fc907d222af0fe2be6e37f3d305" id="r_a7da29fc907d222af0fe2be6e37f3d305"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7da29fc907d222af0fe2be6e37f3d305">Stove::PCSDK::Base::Base_GetUser</a> (__out <a class="el" href="a00087.html">StovePCUser</a> *user)</td></tr>
@@ -137,10 +107,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Stove::PCSDK::Base::B
 <tr class="memitem:a13be02dde7dd8a8eacb21e63f1f76d02" id="r_a13be02dde7dd8a8eacb21e63f1f76d02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a13be02dde7dd8a8eacb21e63f1f76d02">Stove::PCSDK::Base::Base_SetLanguage</a> (<a class="el" href="a00234.html#ad4345f01ae2ef609bf09b59f0adcc935">StoveLanguage</a> language)</td></tr>
 <tr class="memdesc:a13be02dde7dd8a8eacb21e63f1f76d02"><td class="mdescLeft">&#160;</td><td class="mdescRight">BaseSDK의 언어 정보를 설정합니다  <br /></td></tr>
 <tr class="separator:a13be02dde7dd8a8eacb21e63f1f76d02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1146dde524914eb3f38b7c20c91d795d" id="r_a1146dde524914eb3f38b7c20c91d795d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1146dde524914eb3f38b7c20c91d795d">Stove::PCSDK::Base::Base_GetOverImmersion</a> (<a class="el" href="a00213.html#a5f43a7d9e5b1f2b9376b21f6504cbad1">OnOverImmersionFinished</a> callback)</td></tr>
+<tr class="memitem:a1146dde524914eb3f38b7c20c91d795d" id="r_a1146dde524914eb3f38b7c20c91d795d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1146dde524914eb3f38b7c20c91d795d">Stove::PCSDK::Base::Base_GetOverImmersion</a> (<a class="el" href="a00213.html#a1d9f8e25e682a27d0a360d3199de43c2">OnOverImmersionFinished</a> callback)</td></tr>
 <tr class="memdesc:a1146dde524914eb3f38b7c20c91d795d"><td class="mdescLeft">&#160;</td><td class="mdescRight">게임 플레이 1시간마다 과몰입 방지에 대한 정보를 등록한 Callback 함수에 넘겨줍니다  <br /></td></tr>
 <tr class="separator:a1146dde524914eb3f38b7c20c91d795d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab172be7f424e35895111cf5c1f6d9a7d" id="r_ab172be7f424e35895111cf5c1f6d9a7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab172be7f424e35895111cf5c1f6d9a7d">Stove::PCSDK::Base::Base_GetShutdown</a> (<a class="el" href="a00213.html#a7484ca2298c0dba6dcfd9d438d9ef4c6">OnShutdownFinished</a> callback)</td></tr>
+<tr class="memitem:ab172be7f424e35895111cf5c1f6d9a7d" id="r_ab172be7f424e35895111cf5c1f6d9a7d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab172be7f424e35895111cf5c1f6d9a7d">Stove::PCSDK::Base::Base_GetShutdown</a> (<a class="el" href="a00213.html#af433392f45afa6d18911d4917ab4e8f8">OnShutdownFinished</a> callback)</td></tr>
 <tr class="memdesc:ab172be7f424e35895111cf5c1f6d9a7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">셧다운 대상자인지에 대한 정보를 등록한 Callback 함수에 넘겨줍니다  <br /></td></tr>
 <tr class="separator:ab172be7f424e35895111cf5c1f6d9a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a405478e0662b887157eef8430381b633" id="r_a405478e0662b887157eef8430381b633"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a405478e0662b887157eef8430381b633">Stove::PCSDK::Base::Base_GetTraceHint</a> (__out <a class="el" href="a00107.html">StovePCTraceHint</a> *traceHint)</td></tr>
@@ -224,7 +194,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Stove::PCSDK::Base::B
         <tr>
           <td class="memname">void Stove::PCSDK::Base::Base_GetOverImmersion </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00213.html#a5f43a7d9e5b1f2b9376b21f6504cbad1">OnOverImmersionFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="a00213.html#a1d9f8e25e682a27d0a360d3199de43c2">OnOverImmersionFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -249,14 +219,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Stove::PCSDK::Base::B
         <tr>
           <td class="memname">void Stove::PCSDK::Base::Base_GetRenewToken </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00213.html#ac94fe763d3ac859e78043cdb68ac7bfc">OnRenewTokenFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="a00213.html#ab0064a1bdd67ee1a23f6e38f44980e91">OnRenewTokenFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Stove에서 사용 가능한 AccessToken이 갱신되는 시점에 새로 발급된 AccessToken을 등록한 Callback 함수에 넘겨줍니다 </p>
-<dl class="params"><dt>매개변수</dt><dd>
+<p>새로운 Access Token을 발급받는 함수가 아닙니다 </p><dl class="params"><dt>매개변수</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">OnRenewTokenFinished</td><td>onFinished 새로 발급된 AccessToken을 넘겨받는 Callback 함수 </td></tr>
   </table>
@@ -274,7 +244,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Stove::PCSDK::Base::B
         <tr>
           <td class="memname">void Stove::PCSDK::Base::Base_GetShutdown </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00213.html#a7484ca2298c0dba6dcfd9d438d9ef4c6">OnShutdownFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="a00213.html#af433392f45afa6d18911d4917ab4e8f8">OnShutdownFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -413,7 +383,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Stove::PCSDK::Base::B
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00213.html#a1a928fbfec8f1e40fc8da3aa83a22cb8">OnInitializeFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00213.html#ac8aa54a99a94ac5963252b79b63f4ea9">OnInitializeFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -445,7 +415,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Stove::PCSDK::Base::B
 </div><div class="memdoc">
 
 <p>PCSDK가 런처를 통해 실행이 되었는지 확인합니다. </p>
-<p>런처가 실행이 되어 있지않거나 런처를 통해 프로그램이 실행이 되지 않았으면 스토브 프로토콜 핸들러를 이용하여 다시 실행합니다. </p><dl class="params"><dt>매개변수</dt><dd>
+<p>런처가 실행이 되어 있지않거나 런처를 통해 프로그램이 실행이 되지 않았으면 스토브 프로토콜 핸들러를 이용하여 다시 실행합니다. (Synchronous) </p><dl class="params"><dt>매개변수</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">const</td><td>StovePCInitializeParam* initParam 초기화를 하기 위한 정보 </td></tr>
   </table>

@@ -9,13 +9,8 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="cookie.js"></script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,7 +20,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1</span>
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1.2</span>
    </div>
   </td>
  </tr>
@@ -36,51 +31,26 @@
 <!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','검색',false);
-  $(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="annotated.html"><span>클래스</span></a></li>
+      <li class="current"><a href="files.html"><span>파일들</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>파일&#160;목록</span></a></li>
+    </ul>
+  </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<div id="MSearchResults">
-<div class="SRPage">
-<div id="SRIndex">
-<div id="SRResults"></div>
-<div class="SRStatus" id="Loading">로딩중...</div>
-<div class="SRStatus" id="Searching">검색중...</div>
-<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
-</div>
-</div>
-</div>
-</div>
-
 <div id="nav-path" class="navpath">
   <ul>
 <li class="navelem"><a class="el" href="dir_154fab24512579e76f1837ae8a278a58.html">StovePCSDK_v3_Doc</a></li><li class="navelem"><a class="el" href="dir_d80212f84519ad1aa440ca43934e4824.html">IAPSDK</a></li><li class="navelem"><a class="el" href="dir_7699988a55daf6cac4005879a3dedf35.html">Deploy</a></li><li class="navelem"><a class="el" href="dir_d8aadf34f0a3e2401cc3f31158893162.html">Include</a></li><li class="navelem"><a class="el" href="dir_aa6ed0c45a6de92c9bfe09c9953f112c.html">Misc</a></li>  </ul>
@@ -102,24 +72,24 @@ $(function(){ initResizable(false); });
 <div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    {</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keyword">namespace </span>IAP</div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        {</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="a00222.html#a6d72f98bec8dbccc9257177d97ee120a">   18</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnFetchShopCategoriesFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a>, <a class="code hl_struct" href="a00143.html">StovePCShopCategory</a>*, uint32_t);</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="a00222.html#a97e088a2640018eef2cda842a22cace2">   21</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnFetchProductsFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a>, <a class="code hl_struct" href="a00151.html">StovePCProduct</a>*, uint32_t);</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="a00222.html#a876db0ff47a8d82ee400fefac90e5f13">   24</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnStartPurchaseFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a>, <a class="code hl_struct" href="a00175.html">StovePCPurchaseResult</a>);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="a00222.html#ac47bf6d27fcfe2732354c616d61cade2">   27</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnConfirmPurchaseFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a>, bool, <a class="code hl_struct" href="a00167.html">StovePCPurchasedProduct</a>*, uint32_t, <a class="code hl_struct" href="a00171.html">StovePCChargeInfo</a>*, uint32_t);</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="a00222.html#a2ccca47210f9bca9930cc7aeea9cec95">   30</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnFetchInventoryFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a>, <a class="code hl_struct" href="a00179.html">StovePCInventoryItem</a>*, uint32_t);</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span> </div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="a00222.html#afc42bdfafdb69deb1f87e067f0cc83f6">   33</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnFetchTermsAgreementFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a>, bool, LPCWSTR);</div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="a00222.html#a566bbd2e146a1b4b90cb6fe6deff6b3a">   36</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnStartPaymentFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a>, LPCWSTR);</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="a00222.html#a9f412856b9a970fc702ca5467aafe5ed">   39</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnFetchVoidedPurchasesFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a>, <a class="code hl_struct" href="a00191.html">StovePCVoidedPurchase</a>*, uint32_t);</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        }</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    }</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="a00222.html#a33307954939fb5bcf0fe83afbab71522">   23</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnFetchShopCategoriesFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a> callbackResult, <a class="code hl_struct" href="a00143.html">StovePCShopCategory</a>* shopCategorys, uint32_t shopCategorySize);</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="a00222.html#aaf409bf2a9fc1346cfe458dd86c92023">   31</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnFetchProductsFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a> callbackResult, <a class="code hl_struct" href="a00151.html">StovePCProduct</a>* products, uint32_t productSize);</div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="a00222.html#a301f9988952f77956fe7c505a38819ee">   38</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnStartPurchaseFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a> callbackResult, <a class="code hl_struct" href="a00175.html">StovePCPurchaseResult</a> purchaseResult);</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno"><a class="line" href="a00222.html#ad4fd3bce2c051199d2ef4df5a5af3688">   49</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnConfirmPurchaseFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a> callbackResult, <span class="keywordtype">bool</span> status, <a class="code hl_struct" href="a00167.html">StovePCPurchasedProduct</a>* purchasedProducts, uint32_t purchasedProductSize, <a class="code hl_struct" href="a00171.html">StovePCChargeInfo</a>* chargeInfos, uint32_t chargeInfoSize);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno"><a class="line" href="a00222.html#a7777083c1acf24a469acb67aca68b45a">   57</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnFetchInventoryFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a> callbackResult, <a class="code hl_struct" href="a00179.html">StovePCInventoryItem</a>* inventoryItems, uint32_t inventoryItemSize);</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno"><a class="line" href="a00222.html#ac6a0342ac10ac206e881f35b2637a5cd">   65</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnFetchTermsAgreementFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a> callbackResult, <span class="keywordtype">bool</span> agreed, LPCWSTR url);</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span> </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="a00222.html#ae82280fef56586100358877ea84a83b5">   72</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnStartPaymentFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a> callbackResult, LPCWSTR url);</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno"><a class="line" href="a00222.html#a60301795e2d9f0e1012b74ac7540fddd">   80</a></span>            <span class="keyword">typedef</span> void(__cdecl* OnFetchVoidedPurchasesFinished)(<a class="code hl_struct" href="a00075.html">CallbackResult</a> callbackResult, <a class="code hl_struct" href="a00191.html">StovePCVoidedPurchase</a>* voidedPurchases, uint32_t voidedPurchaseSize);</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span>        }</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    }</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>}</div>
 <div class="ttc" id="aa00075_html"><div class="ttname"><a href="a00075.html">Stove::PCSDK::CallbackResult</a></div><div class="ttdoc">Stove PCSDK 3.x에서 Callback 호출시 전달받는 구조체입니다.</div><div class="ttdef"><b>Definition</b> <a href="a00014_source.html#l00076">Result.h:77</a></div></div>
 <div class="ttc" id="aa00143_html"><div class="ttname"><a href="a00143.html">Stove::PCSDK::IAP::StovePCShopCategory</a></div><div class="ttdoc">개별 카테고리 정보를 전달합니다. IAP_FetchShopCategories 콜백에 결과 전달 시 사용합니다.</div><div class="ttdef"><b>Definition</b> <a href="a00258_source.html#l00042">Structures.h:43</a></div></div>
 <div class="ttc" id="aa00151_html"><div class="ttname"><a href="a00151.html">Stove::PCSDK::IAP::StovePCProduct</a></div><div class="ttdoc">개별 상품 정보를 전달하는 구조체입니다. IAP_FetchProducts 콜백에 결과 전달 시 사용됩니다.</div><div class="ttdef"><b>Definition</b> <a href="a00258_source.html#l00185">Structures.h:186</a></div></div>

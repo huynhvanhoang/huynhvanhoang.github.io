@@ -9,13 +9,8 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="cookie.js"></script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,7 +20,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1</span>
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1.2</span>
    </div>
   </td>
  </tr>
@@ -36,51 +31,26 @@
 <!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','검색',false);
-  $(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="annotated.html"><span>클래스</span></a></li>
+      <li class="current"><a href="files.html"><span>파일들</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>파일&#160;목록</span></a></li>
+    </ul>
+  </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<div id="MSearchResults">
-<div class="SRPage">
-<div id="SRIndex">
-<div id="SRResults"></div>
-<div class="SRStatus" id="Loading">로딩중...</div>
-<div class="SRStatus" id="Searching">검색중...</div>
-<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
-</div>
-</div>
-</div>
-</div>
-
 <div id="nav-path" class="navpath">
   <ul>
 <li class="navelem"><a class="el" href="dir_154fab24512579e76f1837ae8a278a58.html">StovePCSDK_v3_Doc</a></li><li class="navelem"><a class="el" href="dir_d80212f84519ad1aa440ca43934e4824.html">IAPSDK</a></li><li class="navelem"><a class="el" href="dir_7699988a55daf6cac4005879a3dedf35.html">Deploy</a></li><li class="navelem"><a class="el" href="dir_d8aadf34f0a3e2401cc3f31158893162.html">Include</a></li><li class="navelem"><a class="el" href="dir_aa6ed0c45a6de92c9bfe09c9953f112c.html">Misc</a></li>  </ul>
@@ -102,177 +72,235 @@ $(function(){ initResizable(false); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 타입정의</h2></td></tr>
-<tr class="memitem:a6d72f98bec8dbccc9257177d97ee120a" id="r_a6d72f98bec8dbccc9257177d97ee120a"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d72f98bec8dbccc9257177d97ee120a">Stove::PCSDK::IAP::OnFetchShopCategoriesFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, <a class="el" href="a00143.html">StovePCShopCategory</a> *, uint32_t)</td></tr>
-<tr class="memdesc:a6d72f98bec8dbccc9257177d97ee120a"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_FetchShopCategories API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:a6d72f98bec8dbccc9257177d97ee120a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97e088a2640018eef2cda842a22cace2" id="r_a97e088a2640018eef2cda842a22cace2"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a97e088a2640018eef2cda842a22cace2">Stove::PCSDK::IAP::OnFetchProductsFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, <a class="el" href="a00151.html">StovePCProduct</a> *, uint32_t)</td></tr>
-<tr class="memdesc:a97e088a2640018eef2cda842a22cace2"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_FetchProducts API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:a97e088a2640018eef2cda842a22cace2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a876db0ff47a8d82ee400fefac90e5f13" id="r_a876db0ff47a8d82ee400fefac90e5f13"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a876db0ff47a8d82ee400fefac90e5f13">Stove::PCSDK::IAP::OnStartPurchaseFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, <a class="el" href="a00175.html">StovePCPurchaseResult</a>)</td></tr>
-<tr class="memdesc:a876db0ff47a8d82ee400fefac90e5f13"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_StartPurchase API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:a876db0ff47a8d82ee400fefac90e5f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac47bf6d27fcfe2732354c616d61cade2" id="r_ac47bf6d27fcfe2732354c616d61cade2"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac47bf6d27fcfe2732354c616d61cade2">Stove::PCSDK::IAP::OnConfirmPurchaseFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, bool, <a class="el" href="a00167.html">StovePCPurchasedProduct</a> *, uint32_t, <a class="el" href="a00171.html">StovePCChargeInfo</a> *, uint32_t)</td></tr>
-<tr class="memdesc:ac47bf6d27fcfe2732354c616d61cade2"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_ConfirmPurchase API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:ac47bf6d27fcfe2732354c616d61cade2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ccca47210f9bca9930cc7aeea9cec95" id="r_a2ccca47210f9bca9930cc7aeea9cec95"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ccca47210f9bca9930cc7aeea9cec95">Stove::PCSDK::IAP::OnFetchInventoryFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, <a class="el" href="a00179.html">StovePCInventoryItem</a> *, uint32_t)</td></tr>
-<tr class="memdesc:a2ccca47210f9bca9930cc7aeea9cec95"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_FetchInventory API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:a2ccca47210f9bca9930cc7aeea9cec95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc42bdfafdb69deb1f87e067f0cc83f6" id="r_afc42bdfafdb69deb1f87e067f0cc83f6"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc42bdfafdb69deb1f87e067f0cc83f6">Stove::PCSDK::IAP::OnFetchTermsAgreementFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, bool, LPCWSTR)</td></tr>
-<tr class="memdesc:afc42bdfafdb69deb1f87e067f0cc83f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_FetchTermsAgreement API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:afc42bdfafdb69deb1f87e067f0cc83f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566bbd2e146a1b4b90cb6fe6deff6b3a" id="r_a566bbd2e146a1b4b90cb6fe6deff6b3a"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a566bbd2e146a1b4b90cb6fe6deff6b3a">Stove::PCSDK::IAP::OnStartPaymentFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, LPCWSTR)</td></tr>
-<tr class="memdesc:a566bbd2e146a1b4b90cb6fe6deff6b3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_StartPayment API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:a566bbd2e146a1b4b90cb6fe6deff6b3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f412856b9a970fc702ca5467aafe5ed" id="r_a9f412856b9a970fc702ca5467aafe5ed"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f412856b9a970fc702ca5467aafe5ed">Stove::PCSDK::IAP::OnFetchVoidedPurchasesFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a>, <a class="el" href="a00191.html">StovePCVoidedPurchase</a> *, uint32_t)</td></tr>
-<tr class="memdesc:a9f412856b9a970fc702ca5467aafe5ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_FetchVoidedPurchases API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
-<tr class="separator:a9f412856b9a970fc702ca5467aafe5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33307954939fb5bcf0fe83afbab71522" id="r_a33307954939fb5bcf0fe83afbab71522"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a33307954939fb5bcf0fe83afbab71522">Stove::PCSDK::IAP::OnFetchShopCategoriesFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, <a class="el" href="a00143.html">StovePCShopCategory</a> *shopCategorys, uint32_t shopCategorySize)</td></tr>
+<tr class="memdesc:a33307954939fb5bcf0fe83afbab71522"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_FetchShopCategories API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:a33307954939fb5bcf0fe83afbab71522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf409bf2a9fc1346cfe458dd86c92023" id="r_aaf409bf2a9fc1346cfe458dd86c92023"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaf409bf2a9fc1346cfe458dd86c92023">Stove::PCSDK::IAP::OnFetchProductsFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, <a class="el" href="a00151.html">StovePCProduct</a> *products, uint32_t productSize)</td></tr>
+<tr class="memdesc:aaf409bf2a9fc1346cfe458dd86c92023"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_FetchProducts API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:aaf409bf2a9fc1346cfe458dd86c92023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a301f9988952f77956fe7c505a38819ee" id="r_a301f9988952f77956fe7c505a38819ee"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a301f9988952f77956fe7c505a38819ee">Stove::PCSDK::IAP::OnStartPurchaseFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, <a class="el" href="a00175.html">StovePCPurchaseResult</a> purchaseResult)</td></tr>
+<tr class="memdesc:a301f9988952f77956fe7c505a38819ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_StartPurchase API 호출 시 응답받는 콜백 함수 포인터 @param[out] <a class="el" href="a00075.html" title="Stove PCSDK 3.x에서 Callback 호출시 전달받는 구조체입니다.">CallbackResult</a> callbackResult 콜백 결과 값 @param[out] <a class="el" href="a00175.html" title="구매 작업 결과 정보를 전달하는 구조체입니다. IAP_StartPurchase 콜백에 결과 전달 시 사용합니다.">StovePCPurchaseResult</a> purchaseResult StartPurchase 결과 값  <br /></td></tr>
+<tr class="separator:a301f9988952f77956fe7c505a38819ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4fd3bce2c051199d2ef4df5a5af3688" id="r_ad4fd3bce2c051199d2ef4df5a5af3688"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad4fd3bce2c051199d2ef4df5a5af3688">Stove::PCSDK::IAP::OnConfirmPurchaseFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, bool status, <a class="el" href="a00167.html">StovePCPurchasedProduct</a> *purchasedProducts, uint32_t purchasedProductSize, <a class="el" href="a00171.html">StovePCChargeInfo</a> *chargeInfos, uint32_t chargeInfoSize)</td></tr>
+<tr class="memdesc:ad4fd3bce2c051199d2ef4df5a5af3688"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_ConfirmPurchase API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:ad4fd3bce2c051199d2ef4df5a5af3688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7777083c1acf24a469acb67aca68b45a" id="r_a7777083c1acf24a469acb67aca68b45a"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7777083c1acf24a469acb67aca68b45a">Stove::PCSDK::IAP::OnFetchInventoryFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, <a class="el" href="a00179.html">StovePCInventoryItem</a> *inventoryItems, uint32_t inventoryItemSize)</td></tr>
+<tr class="memdesc:a7777083c1acf24a469acb67aca68b45a"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_FetchInventory API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:a7777083c1acf24a469acb67aca68b45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6a0342ac10ac206e881f35b2637a5cd" id="r_ac6a0342ac10ac206e881f35b2637a5cd"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac6a0342ac10ac206e881f35b2637a5cd">Stove::PCSDK::IAP::OnFetchTermsAgreementFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, bool agreed, LPCWSTR url)</td></tr>
+<tr class="memdesc:ac6a0342ac10ac206e881f35b2637a5cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_FetchTermsAgreement API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:ac6a0342ac10ac206e881f35b2637a5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae82280fef56586100358877ea84a83b5" id="r_ae82280fef56586100358877ea84a83b5"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae82280fef56586100358877ea84a83b5">Stove::PCSDK::IAP::OnStartPaymentFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, LPCWSTR url)</td></tr>
+<tr class="memdesc:ae82280fef56586100358877ea84a83b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_StartPayment API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:ae82280fef56586100358877ea84a83b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60301795e2d9f0e1012b74ac7540fddd" id="r_a60301795e2d9f0e1012b74ac7540fddd"><td class="memItemLeft" align="right" valign="top">typedef void(__cdecl *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a60301795e2d9f0e1012b74ac7540fddd">Stove::PCSDK::IAP::OnFetchVoidedPurchasesFinished</a>) (<a class="el" href="a00075.html">CallbackResult</a> callbackResult, <a class="el" href="a00191.html">StovePCVoidedPurchase</a> *voidedPurchases, uint32_t voidedPurchaseSize)</td></tr>
+<tr class="memdesc:a60301795e2d9f0e1012b74ac7540fddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAP_FetchVoidedPurchases API 호출 시 응답받는 콜백 함수 포인터  <br /></td></tr>
+<tr class="separator:a60301795e2d9f0e1012b74ac7540fddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">상세한 설명</h2>
 <div class="textblock"><p>IAPSDK에서 사용하는 Callback 값의 헤더 파일입니다. </p>
 
 <p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일에서 정의되었습니다.</p>
 </div><h2 class="groupheader">타입정의 문서화</h2>
-<a id="ac47bf6d27fcfe2732354c616d61cade2" name="ac47bf6d27fcfe2732354c616d61cade2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac47bf6d27fcfe2732354c616d61cade2">&#9670;&#160;</a></span>OnConfirmPurchaseFinished</h2>
+<a id="ad4fd3bce2c051199d2ef4df5a5af3688" name="ad4fd3bce2c051199d2ef4df5a5af3688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4fd3bce2c051199d2ef4df5a5af3688">&#9670;&#160;</a></span>OnConfirmPurchaseFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnConfirmPurchaseFinished) (CallbackResult, bool, StovePCPurchasedProduct *, uint32_t, StovePCChargeInfo *, uint32_t)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnConfirmPurchaseFinished) (CallbackResult callbackResult, bool status, StovePCPurchasedProduct *purchasedProducts, uint32_t purchasedProductSize, StovePCChargeInfo *chargeInfos, uint32_t chargeInfoSize)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>IAP_ConfirmPurchase API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">bool</td><td>status 구매 상태 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCPurchasedProduct*</td><td>purchasedProducts StovePCPurchasedProduct 배열 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">uint32_t</td><td>purchasedProductSize StovePCPurchasedProduct 배열 크기 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCChargeInfo*</td><td>chargeInfos StovePCChargeInfo 배열 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">uint32_t</td><td>chargeInfoSize StovePCChargeInfo 배열 크기 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00027">27</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00049">49</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
-<a id="a2ccca47210f9bca9930cc7aeea9cec95" name="a2ccca47210f9bca9930cc7aeea9cec95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ccca47210f9bca9930cc7aeea9cec95">&#9670;&#160;</a></span>OnFetchInventoryFinished</h2>
+<a id="a7777083c1acf24a469acb67aca68b45a" name="a7777083c1acf24a469acb67aca68b45a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7777083c1acf24a469acb67aca68b45a">&#9670;&#160;</a></span>OnFetchInventoryFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnFetchInventoryFinished) (CallbackResult, StovePCInventoryItem *, uint32_t)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnFetchInventoryFinished) (CallbackResult callbackResult, StovePCInventoryItem *inventoryItems, uint32_t inventoryItemSize)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>IAP_FetchInventory API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCInventoryItem*</td><td>inventoryItems StovePCInventoryItem 배열 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">uint32_t</td><td>inventoryItemSize StovePCInventoryItem 배열 크기 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00030">30</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00057">57</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
-<a id="a97e088a2640018eef2cda842a22cace2" name="a97e088a2640018eef2cda842a22cace2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97e088a2640018eef2cda842a22cace2">&#9670;&#160;</a></span>OnFetchProductsFinished</h2>
+<a id="aaf409bf2a9fc1346cfe458dd86c92023" name="aaf409bf2a9fc1346cfe458dd86c92023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf409bf2a9fc1346cfe458dd86c92023">&#9670;&#160;</a></span>OnFetchProductsFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnFetchProductsFinished) (CallbackResult, StovePCProduct *, uint32_t)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnFetchProductsFinished) (CallbackResult callbackResult, StovePCProduct *products, uint32_t productSize)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>IAP_FetchProducts API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCProduct*</td><td>products StovePCProduct 배열 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">uint32_t</td><td>productSize StovePCProduct 배열의 크기 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00021">21</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00031">31</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
-<a id="a6d72f98bec8dbccc9257177d97ee120a" name="a6d72f98bec8dbccc9257177d97ee120a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d72f98bec8dbccc9257177d97ee120a">&#9670;&#160;</a></span>OnFetchShopCategoriesFinished</h2>
+<a id="a33307954939fb5bcf0fe83afbab71522" name="a33307954939fb5bcf0fe83afbab71522"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33307954939fb5bcf0fe83afbab71522">&#9670;&#160;</a></span>OnFetchShopCategoriesFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnFetchShopCategoriesFinished) (CallbackResult, StovePCShopCategory *, uint32_t)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnFetchShopCategoriesFinished) (CallbackResult callbackResult, StovePCShopCategory *shopCategorys, uint32_t shopCategorySize)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>IAP_FetchShopCategories API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCShopCategory*</td><td>shopCategorys StovePCShopCategory 배열 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">uint32_t</td><td>shopCategorySize StovePCShopCategory 배열의 크기 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00018">18</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00023">23</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
-<a id="afc42bdfafdb69deb1f87e067f0cc83f6" name="afc42bdfafdb69deb1f87e067f0cc83f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc42bdfafdb69deb1f87e067f0cc83f6">&#9670;&#160;</a></span>OnFetchTermsAgreementFinished</h2>
+<a id="ac6a0342ac10ac206e881f35b2637a5cd" name="ac6a0342ac10ac206e881f35b2637a5cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6a0342ac10ac206e881f35b2637a5cd">&#9670;&#160;</a></span>OnFetchTermsAgreementFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnFetchTermsAgreementFinished) (CallbackResult, bool, LPCWSTR)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnFetchTermsAgreementFinished) (CallbackResult callbackResult, bool agreed, LPCWSTR url)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>IAP_FetchTermsAgreement API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">bool</td><td>agreed 이용약관 동의 여부 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">LPCWSTR</td><td>url 이용약관 url 주소 (agreed == true 이면 빈값) </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00033">33</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00065">65</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
-<a id="a9f412856b9a970fc702ca5467aafe5ed" name="a9f412856b9a970fc702ca5467aafe5ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f412856b9a970fc702ca5467aafe5ed">&#9670;&#160;</a></span>OnFetchVoidedPurchasesFinished</h2>
+<a id="a60301795e2d9f0e1012b74ac7540fddd" name="a60301795e2d9f0e1012b74ac7540fddd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60301795e2d9f0e1012b74ac7540fddd">&#9670;&#160;</a></span>OnFetchVoidedPurchasesFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnFetchVoidedPurchasesFinished) (CallbackResult, StovePCVoidedPurchase *, uint32_t)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnFetchVoidedPurchasesFinished) (CallbackResult callbackResult, StovePCVoidedPurchase *voidedPurchases, uint32_t voidedPurchaseSize)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>IAP_FetchVoidedPurchases API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">StovePCVoidedPurchase*</td><td>voidedPurchases StovePCVoidedPurchase 배열 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">uint32_t</td><td>voidedPurchaseSize StovePCVoidedPurchase 배열 크기 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00039">39</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00080">80</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
-<a id="a566bbd2e146a1b4b90cb6fe6deff6b3a" name="a566bbd2e146a1b4b90cb6fe6deff6b3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a566bbd2e146a1b4b90cb6fe6deff6b3a">&#9670;&#160;</a></span>OnStartPaymentFinished</h2>
+<a id="ae82280fef56586100358877ea84a83b5" name="ae82280fef56586100358877ea84a83b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae82280fef56586100358877ea84a83b5">&#9670;&#160;</a></span>OnStartPaymentFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnStartPaymentFinished) (CallbackResult, LPCWSTR)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnStartPaymentFinished) (CallbackResult callbackResult, LPCWSTR url)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>IAP_StartPayment API 호출 시 응답받는 콜백 함수 포인터 </p>
+<dl class="params"><dt>매개변수</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">CallbackResult</td><td>callbackResult 콜백 결과 값 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">LPCWSTR</td><td>url 1회용 결제 url 주소 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00036">36</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00072">72</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>
-<a id="a876db0ff47a8d82ee400fefac90e5f13" name="a876db0ff47a8d82ee400fefac90e5f13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a876db0ff47a8d82ee400fefac90e5f13">&#9670;&#160;</a></span>OnStartPurchaseFinished</h2>
+<a id="a301f9988952f77956fe7c505a38819ee" name="a301f9988952f77956fe7c505a38819ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a301f9988952f77956fe7c505a38819ee">&#9670;&#160;</a></span>OnStartPurchaseFinished</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnStartPurchaseFinished) (CallbackResult, StovePCPurchaseResult)</td>
+          <td class="memname">typedef void(__cdecl * Stove::PCSDK::IAP::OnStartPurchaseFinished) (CallbackResult callbackResult, StovePCPurchaseResult purchaseResult)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>IAP_StartPurchase API 호출 시 응답받는 콜백 함수 포인터 </p>
+<p>IAP_StartPurchase API 호출 시 응답받는 콜백 함수 포인터 @param[out] CallbackResult callbackResult 콜백 결과 값 @param[out] StovePCPurchaseResult purchaseResult StartPurchase 결과 값 </p>
 
-<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00024">24</a> 번째 라인에서 정의되었습니다.</p>
+<p class="definition"><a class="el" href="a00222_source.html">Callbacks.h</a> 파일의 <a class="el" href="a00222_source.html#l00038">38</a> 번째 라인에서 정의되었습니다.</p>
 
 </div>
 </div>

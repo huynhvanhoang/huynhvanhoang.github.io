@@ -9,13 +9,8 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="cookie.js"></script>
-<link href="search/search.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="search/searchdata.js"></script>
-<script type="text/javascript" src="search/search.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -25,7 +20,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1</span>
+   <div id="projectname">StovePCSDK3<span id="projectnumber">&#160;3.2.1.2</span>
    </div>
   </td>
  </tr>
@@ -36,51 +31,26 @@
 <!-- 다음에 의해 생성됨 :  Doxygen 1.11.0 -->
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-var searchBox = new SearchBox("searchBox", "search/",'.html');
-/* @license-end */
-</script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','검색',false);
-  $(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>메인&#160;페이지</span></a></li>
+      <li><a href="annotated.html"><span>클래스</span></a></li>
+      <li class="current"><a href="files.html"><span>파일들</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>파일&#160;목록</span></a></li>
+    </ul>
+  </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
 $(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<!-- window showing the filter options -->
-<div id="MSearchSelectWindow"
-     onmouseover="return searchBox.OnSearchSelectShow()"
-     onmouseout="return searchBox.OnSearchSelectHide()"
-     onkeydown="return searchBox.OnSearchSelectKey(event)">
-</div>
-
-<!-- iframe showing the search results (closed by default) -->
-<div id="MSearchResultsWindow">
-<div id="MSearchResults">
-<div class="SRPage">
-<div id="SRIndex">
-<div id="SRResults"></div>
-<div class="SRStatus" id="Loading">로딩중...</div>
-<div class="SRStatus" id="Searching">검색중...</div>
-<div class="SRStatus" id="NoMatches">일치하는것 없음</div>
-</div>
-</div>
-</div>
-</div>
-
 <div id="nav-path" class="navpath">
   <ul>
 <li class="navelem"><a class="el" href="dir_154fab24512579e76f1837ae8a278a58.html">StovePCSDK_v3_Doc</a></li><li class="navelem"><a class="el" href="dir_d80212f84519ad1aa440ca43934e4824.html">IAPSDK</a></li><li class="navelem"><a class="el" href="dir_7699988a55daf6cac4005879a3dedf35.html">Deploy</a></li><li class="navelem"><a class="el" href="dir_d8aadf34f0a3e2401cc3f31158893162.html">Include</a></li>  </ul>
@@ -111,28 +81,28 @@ $(function(){ initResizable(false); });
 <tr class="memitem:ad8f12664fbfd403fa725280dffac7567" id="r_ad8f12664fbfd403fa725280dffac7567"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8f12664fbfd403fa725280dffac7567">Stove::PCSDK::IAP::IAP_UnInitialize</a> ()</td></tr>
 <tr class="memdesc:ad8f12664fbfd403fa725280dffac7567"><td class="mdescLeft">&#160;</td><td class="mdescRight">IAPSDK의 자원을 해제합니다  <br /></td></tr>
 <tr class="separator:ad8f12664fbfd403fa725280dffac7567"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a921628c078229f2ec5cb7b026698cdb3" id="r_a921628c078229f2ec5cb7b026698cdb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a921628c078229f2ec5cb7b026698cdb3">Stove::PCSDK::IAP::IAP_FetchShopCategories</a> (<a class="el" href="a00222.html#a6d72f98bec8dbccc9257177d97ee120a">OnFetchShopCategoriesFinished</a> onFinished)</td></tr>
+<tr class="memitem:a921628c078229f2ec5cb7b026698cdb3" id="r_a921628c078229f2ec5cb7b026698cdb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a921628c078229f2ec5cb7b026698cdb3">Stove::PCSDK::IAP::IAP_FetchShopCategories</a> (<a class="el" href="a00222.html#a33307954939fb5bcf0fe83afbab71522">OnFetchShopCategoriesFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a921628c078229f2ec5cb7b026698cdb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">스토브 플랫폼에 등록된 상점 카테코리를 조회합니다.  <br /></td></tr>
 <tr class="separator:a921628c078229f2ec5cb7b026698cdb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66068f00de142ecdc07696c1b90baaf4" id="r_a66068f00de142ecdc07696c1b90baaf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66068f00de142ecdc07696c1b90baaf4">Stove::PCSDK::IAP::IAP_FetchProducts</a> (const <a class="el" href="a00147.html">StovePCFetchProductParam</a> *params, <a class="el" href="a00222.html#a97e088a2640018eef2cda842a22cace2">OnFetchProductsFinished</a> onFinished)</td></tr>
+<tr class="memitem:a66068f00de142ecdc07696c1b90baaf4" id="r_a66068f00de142ecdc07696c1b90baaf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a66068f00de142ecdc07696c1b90baaf4">Stove::PCSDK::IAP::IAP_FetchProducts</a> (const <a class="el" href="a00147.html">StovePCFetchProductParam</a> *params, <a class="el" href="a00222.html#aaf409bf2a9fc1346cfe458dd86c92023">OnFetchProductsFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a66068f00de142ecdc07696c1b90baaf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">스토브 플랫폼에 등록된 상품 정보를 조회합니다.  <br /></td></tr>
 <tr class="separator:a66068f00de142ecdc07696c1b90baaf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7005628603ce02099937f38c28d23d43" id="r_a7005628603ce02099937f38c28d23d43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7005628603ce02099937f38c28d23d43">Stove::PCSDK::IAP::IAP_StartPurchase</a> (const <a class="el" href="a00163.html">StovePCStartPurchaseParam</a> *params, <a class="el" href="a00222.html#a876db0ff47a8d82ee400fefac90e5f13">OnStartPurchaseFinished</a> onFinished)</td></tr>
+<tr class="memitem:a7005628603ce02099937f38c28d23d43" id="r_a7005628603ce02099937f38c28d23d43"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7005628603ce02099937f38c28d23d43">Stove::PCSDK::IAP::IAP_StartPurchase</a> (const <a class="el" href="a00163.html">StovePCStartPurchaseParam</a> *params, <a class="el" href="a00222.html#a301f9988952f77956fe7c505a38819ee">OnStartPurchaseFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a7005628603ce02099937f38c28d23d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">상품구매를 시작하기 위한 결제 URL 을 전달받거나 WebView2를 이용하여 결제를 시작합니다.  <br /></td></tr>
 <tr class="separator:a7005628603ce02099937f38c28d23d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eb410fb132d65a03334bd91b2a8164a" id="r_a3eb410fb132d65a03334bd91b2a8164a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eb410fb132d65a03334bd91b2a8164a">Stove::PCSDK::IAP::IAP_ConfirmPurchase</a> (int64_t transactionMasterNumber, <a class="el" href="a00222.html#ac47bf6d27fcfe2732354c616d61cade2">OnConfirmPurchaseFinished</a> onFinished)</td></tr>
+<tr class="memitem:a3eb410fb132d65a03334bd91b2a8164a" id="r_a3eb410fb132d65a03334bd91b2a8164a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3eb410fb132d65a03334bd91b2a8164a">Stove::PCSDK::IAP::IAP_ConfirmPurchase</a> (int64_t transactionMasterNumber, <a class="el" href="a00222.html#ad4fd3bce2c051199d2ef4df5a5af3688">OnConfirmPurchaseFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a3eb410fb132d65a03334bd91b2a8164a"><td class="mdescLeft">&#160;</td><td class="mdescRight">상품구매 완료후 구매 ID로 정상처리 되었는지 확인 합니다.  <br /></td></tr>
 <tr class="separator:a3eb410fb132d65a03334bd91b2a8164a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaff5c14fe06460b3ea13c3de00baeb22" id="r_aaff5c14fe06460b3ea13c3de00baeb22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaff5c14fe06460b3ea13c3de00baeb22">Stove::PCSDK::IAP::IAP_FetchInventory</a> (<a class="el" href="a00222.html#a2ccca47210f9bca9930cc7aeea9cec95">OnFetchInventoryFinished</a> onFinished)</td></tr>
+<tr class="memitem:aaff5c14fe06460b3ea13c3de00baeb22" id="r_aaff5c14fe06460b3ea13c3de00baeb22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaff5c14fe06460b3ea13c3de00baeb22">Stove::PCSDK::IAP::IAP_FetchInventory</a> (<a class="el" href="a00222.html#a7777083c1acf24a469acb67aca68b45a">OnFetchInventoryFinished</a> onFinished)</td></tr>
 <tr class="memdesc:aaff5c14fe06460b3ea13c3de00baeb22"><td class="mdescLeft">&#160;</td><td class="mdescRight">전체 구매한 상품목록을 조회합니다.  <br /></td></tr>
 <tr class="separator:aaff5c14fe06460b3ea13c3de00baeb22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70a1c0f1188e7c3936a45e986dd33d59" id="r_a70a1c0f1188e7c3936a45e986dd33d59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70a1c0f1188e7c3936a45e986dd33d59">Stove::PCSDK::IAP::IAP_FetchTermsAgreement</a> (const <a class="el" href="a00183.html">StovePCTermsOption</a> *options, <a class="el" href="a00222.html#afc42bdfafdb69deb1f87e067f0cc83f6">OnFetchTermsAgreementFinished</a> onFinished)</td></tr>
+<tr class="memitem:a70a1c0f1188e7c3936a45e986dd33d59" id="r_a70a1c0f1188e7c3936a45e986dd33d59"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70a1c0f1188e7c3936a45e986dd33d59">Stove::PCSDK::IAP::IAP_FetchTermsAgreement</a> (const <a class="el" href="a00183.html">StovePCTermsOption</a> *options, <a class="el" href="a00222.html#ac6a0342ac10ac206e881f35b2637a5cd">OnFetchTermsAgreementFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a70a1c0f1188e7c3936a45e986dd33d59"><td class="mdescLeft">&#160;</td><td class="mdescRight">필수 약관 동의 여부를 조회합니다.  <br /></td></tr>
 <tr class="separator:a70a1c0f1188e7c3936a45e986dd33d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68aea8bfccfc513999f538805643a0ac" id="r_a68aea8bfccfc513999f538805643a0ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68aea8bfccfc513999f538805643a0ac">Stove::PCSDK::IAP::IAP_StartPayment</a> (const <a class="el" href="a00187.html">StovePCPaymentOption</a> *options, <a class="el" href="a00222.html#a566bbd2e146a1b4b90cb6fe6deff6b3a">OnStartPaymentFinished</a> onFinished)</td></tr>
+<tr class="memitem:a68aea8bfccfc513999f538805643a0ac" id="r_a68aea8bfccfc513999f538805643a0ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68aea8bfccfc513999f538805643a0ac">Stove::PCSDK::IAP::IAP_StartPayment</a> (const <a class="el" href="a00187.html">StovePCPaymentOption</a> *options, <a class="el" href="a00222.html#ae82280fef56586100358877ea84a83b5">OnStartPaymentFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a68aea8bfccfc513999f538805643a0ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">1회성 결제를 시작하기 위한 결제 URL 을 전달받거나 WebView2를 이용하여 결제를 시작합니다.  <br /></td></tr>
 <tr class="separator:a68aea8bfccfc513999f538805643a0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a354bb1db419fe162fd512851481da170" id="r_a354bb1db419fe162fd512851481da170"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a354bb1db419fe162fd512851481da170">Stove::PCSDK::IAP::IAP_FetchVoidedPurchases</a> (<a class="el" href="a00222.html#a9f412856b9a970fc702ca5467aafe5ed">OnFetchVoidedPurchasesFinished</a> onFinished)</td></tr>
+<tr class="memitem:a354bb1db419fe162fd512851481da170" id="r_a354bb1db419fe162fd512851481da170"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a354bb1db419fe162fd512851481da170">Stove::PCSDK::IAP::IAP_FetchVoidedPurchases</a> (<a class="el" href="a00222.html#a60301795e2d9f0e1012b74ac7540fddd">OnFetchVoidedPurchasesFinished</a> onFinished)</td></tr>
 <tr class="memdesc:a354bb1db419fe162fd512851481da170"><td class="mdescLeft">&#160;</td><td class="mdescRight">현재 사용자가 환불 처리한 구매 기록 목록을 조회합니다.  <br /></td></tr>
 <tr class="separator:a354bb1db419fe162fd512851481da170"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab113f368713a7a64b55513a1b91718ee" id="r_ab113f368713a7a64b55513a1b91718ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="a00071.html">Result</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab113f368713a7a64b55513a1b91718ee">Stove::PCSDK::IAP::IAP_CloseAllPopups</a> ()</td></tr>
@@ -181,7 +151,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00222.html#ac47bf6d27fcfe2732354c616d61cade2">OnConfirmPurchaseFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00222.html#ad4fd3bce2c051199d2ef4df5a5af3688">OnConfirmPurchaseFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -206,7 +176,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="memname">void Stove::PCSDK::IAP::IAP_FetchInventory </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00222.html#a2ccca47210f9bca9930cc7aeea9cec95">OnFetchInventoryFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="a00222.html#a7777083c1acf24a469acb67aca68b45a">OnFetchInventoryFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -236,7 +206,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00222.html#a97e088a2640018eef2cda842a22cace2">OnFetchProductsFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00222.html#aaf409bf2a9fc1346cfe458dd86c92023">OnFetchProductsFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -261,7 +231,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="memname">void Stove::PCSDK::IAP::IAP_FetchShopCategories </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00222.html#a6d72f98bec8dbccc9257177d97ee120a">OnFetchShopCategoriesFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="a00222.html#a33307954939fb5bcf0fe83afbab71522">OnFetchShopCategoriesFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -291,7 +261,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00222.html#afc42bdfafdb69deb1f87e067f0cc83f6">OnFetchTermsAgreementFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00222.html#ac6a0342ac10ac206e881f35b2637a5cd">OnFetchTermsAgreementFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -316,7 +286,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="memname">void Stove::PCSDK::IAP::IAP_FetchVoidedPurchases </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="a00222.html#a9f412856b9a970fc702ca5467aafe5ed">OnFetchVoidedPurchasesFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="a00222.html#a60301795e2d9f0e1012b74ac7540fddd">OnFetchVoidedPurchasesFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -403,7 +373,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00222.html#a566bbd2e146a1b4b90cb6fe6deff6b3a">OnStartPaymentFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00222.html#ae82280fef56586100358877ea84a83b5">OnStartPaymentFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -433,7 +403,7 @@ $(function(){ initResizable(false); });
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="a00222.html#a876db0ff47a8d82ee400fefac90e5f13">OnStartPurchaseFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="a00222.html#a301f9988952f77956fe7c505a38819ee">OnStartPurchaseFinished</a></td>          <td class="paramname"><span class="paramname"><em>onFinished</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
